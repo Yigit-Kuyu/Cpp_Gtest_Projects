@@ -1,6 +1,7 @@
 ### Roles
 - product.cpp: class function definitions
 - product.h: class decleration
+- utest-product.cpp: related tests
 
 ### Implementation
 
