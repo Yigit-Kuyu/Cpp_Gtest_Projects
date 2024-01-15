@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/run_opt_test.dir/src/product.cpp.o CMakeFiles/run_opt_test.dir/tests/utest-product.cpp.o -o run_opt_test  lib/libgtest_main.a lib/libgtest.a 
