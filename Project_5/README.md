@@ -13,3 +13,6 @@ The object is to independently test the control methods in AW Universe, with ROS
  ```
 
 *Note*: Don't forget to change the path in CMakeLists.txt in Project_5 folder according to your path specification.
+
+
+![Result](https://github.com/Yigit-Kuyu/Cpp_Gtest_Projects/blob/main/Project_5/Project5.png)
