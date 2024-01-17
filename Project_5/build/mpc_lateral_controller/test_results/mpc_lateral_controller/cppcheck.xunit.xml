@@ -1,0 +1,2915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="mpc_lateral_controller.cppcheck"
+  tests="363"
+  errors="0"
+  failures="0"
+  time="0.011"
+  skipped="363"
+>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/ackermann_control_command.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/ackermann_lateral_command.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__struct.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__type_support.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__struct.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__type_support.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__struct.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__type_support.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__struct.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__type_support.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/high_level_control_command.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/longitudinal_command.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_c/autoware_auto_control_msgs/msg/rosidl_generator_c__visibility_control.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/ackermann_control_command.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/ackermann_lateral_command.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/ackermann_control_command__builder.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/ackermann_control_command__struct.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/ackermann_control_command__traits.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__builder.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__struct.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__traits.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/high_level_control_command__builder.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/high_level_control_command__struct.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/high_level_control_command__traits.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/longitudinal_command__builder.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/longitudinal_command__struct.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/detail/longitudinal_command__traits.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/high_level_control_command.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_cpp/autoware_auto_control_msgs/msg/longitudinal_command.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_py/autoware_auto_control_msgs/_autoware_auto_control_msgs_s.ep.rosidl_typesupport_c.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_py/autoware_auto_control_msgs/_autoware_auto_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_py/autoware_auto_control_msgs/_autoware_auto_control_msgs_s.ep.rosidl_typesupport_introspection_c.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_py/autoware_auto_control_msgs/msg/_ackermann_control_command_s.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_py/autoware_auto_control_msgs/msg/_ackermann_lateral_command_s.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_py/autoware_auto_control_msgs/msg/_high_level_control_command_s.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_generator_py/autoware_auto_control_msgs/msg/_longitudinal_command_s.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_c/autoware_auto_control_msgs/msg/ackermann_control_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_c/autoware_auto_control_msgs/msg/ackermann_lateral_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_c/autoware_auto_control_msgs/msg/high_level_control_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_c/autoware_auto_control_msgs/msg/longitudinal_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_cpp/autoware_auto_control_msgs/msg/ackermann_control_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_cpp/autoware_auto_control_msgs/msg/ackermann_lateral_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_cpp/autoware_auto_control_msgs/msg/high_level_control_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_cpp/autoware_auto_control_msgs/msg/longitudinal_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_fastrtps_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__type_support_c.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_fastrtps_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__type_support_c.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_fastrtps_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__type_support_c.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_fastrtps_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__type_support_c.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_c/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_cpp/autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_cpp/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_cpp/autoware_auto_control_msgs/msg/detail/dds_fastrtps/ackermann_control_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_cpp/autoware_auto_control_msgs/msg/detail/dds_fastrtps/ackermann_lateral_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_cpp/autoware_auto_control_msgs/msg/detail/dds_fastrtps/high_level_control_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_cpp/autoware_auto_control_msgs/msg/detail/dds_fastrtps/longitudinal_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_cpp/autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_cpp/autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_fastrtps_cpp/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_introspection_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_c/autoware_auto_control_msgs/msg/detail/ackermann_control_command__type_support.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_introspection_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_c/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__type_support.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_introspection_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_c/autoware_auto_control_msgs/msg/detail/high_level_control_command__type_support.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_introspection_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_c/autoware_auto_control_msgs/msg/detail/longitudinal_command__type_support.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_c/autoware_auto_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_cpp/autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_introspection_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_cpp/autoware_auto_control_msgs/msg/detail/ackermann_control_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_cpp/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_introspection_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_cpp/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_cpp/autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_introspection_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_cpp/autoware_auto_control_msgs/msg/detail/high_level_control_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_cpp/autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_introspection_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/build/autoware_auto_control_msgs/rosidl_typesupport_introspection_cpp/autoware_auto_control_msgs/msg/detail/longitudinal_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/ackermann_control_command.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/ackermann_control_command.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/ackermann_lateral_command.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/ackermann_lateral_command.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__builder.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__functions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_fastrtps_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_introspection_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__rosidl_typesupport_introspection_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__struct.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__struct.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__traits.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__type_support.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_control_command__type_support.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__builder.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__functions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_fastrtps_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_introspection_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__rosidl_typesupport_introspection_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__struct.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__struct.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__traits.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__type_support.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/ackermann_lateral_command__type_support.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__builder.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__functions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_fastrtps_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_introspection_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__rosidl_typesupport_introspection_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__struct.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__struct.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__traits.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__type_support.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/high_level_control_command__type_support.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__builder.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__functions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_fastrtps_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_introspection_c.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__rosidl_typesupport_introspection_cpp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__struct.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__struct.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__traits.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__type_support.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__type_support.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/detail/longitudinal_command__type_support.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/high_level_control_command.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/high_level_control_command.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/longitudinal_command.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/longitudinal_command.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/rosidl_generator_c__visibility_control.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/include/autoware_auto_control_msgs/autoware_auto_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages/autoware_auto_control_msgs/_autoware_auto_control_msgs_s.ep.rosidl_typesupport_c.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages/autoware_auto_control_msgs/_autoware_auto_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages/autoware_auto_control_msgs/_autoware_auto_control_msgs_s.ep.rosidl_typesupport_introspection_c.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages/autoware_auto_control_msgs/msg/_ackermann_control_command_s.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages/autoware_auto_control_msgs/msg/_ackermann_lateral_command_s.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages/autoware_auto_control_msgs/msg/_high_level_control_command_s.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages/autoware_auto_control_msgs/msg/_longitudinal_command_s.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="build/mpc_lateral_controller/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="build/mpc_lateral_controller/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/gmock-actions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/gmock-cardinalities.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/gmock-function-mocker.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/gmock-matchers.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/gmock-more-actions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/gmock-more-matchers.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/gmock-nice-strict.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/gmock-spec-builders.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/gmock.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/internal/custom/gmock-matchers.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/internal/custom/gmock-port.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/internal/gmock-internal-utils.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/internal/gmock-port.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/include/gmock/internal/gmock-pp.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/src/gmock-all.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/src/gmock-cardinalities.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/src/gmock-internal-utils.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/src/gmock-matchers.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/src/gmock-spec-builders.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/src/gmock.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/src/gmock_main.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-actions_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-cardinalities_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-function-mocker_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-internal-utils_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-matchers-arithmetic_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-matchers-comparisons_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-matchers-containers_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-matchers-misc_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-matchers_test.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-more-actions_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-nice-strict_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-port_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-pp-string_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-pp_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock-spec-builders_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock_all_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock_ex_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock_leak_test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock_link2_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock_link_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock_link_test.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock_output_test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock_stress_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googlemock/test/gmock_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest-assertion-result.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest-death-test.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest-matchers.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest-message.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest-param-test.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest-printers.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest-spi.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest-test-part.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest-typed-test.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest_pred_impl.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/gtest_prod.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/custom/gtest-port.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/custom/gtest-printers.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/custom/gtest.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/gtest-death-test-internal.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/gtest-filepath.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/gtest-internal.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/gtest-param-util.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/gtest-port-arch.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/gtest-port.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/gtest-string.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/include/gtest/internal/gtest-type-util.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/prime_tables.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample1.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample1.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample10_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample1_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample2.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample2.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample2_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample3-inl.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample3_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample4.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample4.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample4_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample5_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample6_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample7_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample8_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/samples/sample9_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest-all.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest-assertion-result.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest-death-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest-filepath.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest-internal-inl.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest-matchers.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest-port.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest-printers.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest-test-part.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest-typed-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/src/gtest_main.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-break-on-failure-unittest_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-catch-exceptions-test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-color-test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-death-test-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-death-test_ex_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-env-var-test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-failfast-unittest_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-filepath-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-filter-unittest_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-global-environment-unittest_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-list-tests-unittest_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-listener-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-message-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-options-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-output-test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-param-test-invalid-name1-test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-param-test-invalid-name2-test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-param-test-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-param-test-test.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-param-test2-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-port-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-printers-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-setuptestsuite-test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-shuffle-test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-test-part-test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-throw-on-failure-test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/googletest-uninitialized-test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest-typed-test2_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest-typed-test_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest-typed-test_test.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest-unittest-api_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_all_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_assert_by_exception_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_dirs_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_environment_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_help_test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_list_output_unittest_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_main_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_no_test_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_pred_impl_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_premature_exit_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_prod_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_repeat_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_skip_in_environment_setup_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_skip_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_sole_header_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_stress_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_test_macro_stack_footprint_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_testbridge_test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_throw_on_failure_ex_test.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_unittest.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_xml_outfile1_test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_xml_outfile2_test_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/gtest_xml_output_unittest_.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/production.cc"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="googletest/googletest/test/production.h"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/lowpass_filter.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/mpc.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/mpc_lateral_controller.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/mpc_trajectory.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/mpc_utils.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/qp_solver/qp_solver_interface.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/qp_solver/qp_solver_osqp.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/qp_solver/qp_solver_unconstraint_fast.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/steering_offset/steering_offset.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/steering_predictor.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/vehicle_model/vehicle_model_bicycle_dynamics.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/vehicle_model/vehicle_model_bicycle_kinematics.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/vehicle_model/vehicle_model_bicycle_kinematics_no_delay.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/include/mpc_lateral_controller/vehicle_model/vehicle_model_interface.hpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/lowpass_filter.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/mpc.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/mpc_lateral_controller.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/mpc_trajectory.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/mpc_utils.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/qp_solver/qp_solver_osqp.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/qp_solver/qp_solver_unconstraint_fast.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/steering_offset/steering_offset.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/steering_predictor.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/vehicle_model/vehicle_model_bicycle_dynamics.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/vehicle_model/vehicle_model_bicycle_kinematics.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/vehicle_model/vehicle_model_bicycle_kinematics_no_delay.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/src/vehicle_model/vehicle_model_interface.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/test/test_lowpass_filter.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/test/test_mpc.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/test/test_mpc_utils.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/lowpass_filter.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/mpc.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/mpc_lateral_controller.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/mpc_trajectory.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/mpc_utils.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/qp_solver/qp_solver_osqp.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/qp_solver/qp_solver_unconstraint_fast.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/steering_offset/steering_offset.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/steering_predictor.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/vehicle_model/vehicle_model_bicycle_dynamics.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/vehicle_model/vehicle_model_bicycle_kinematics.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/vehicle_model/vehicle_model_bicycle_kinematics_no_delay.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/vehicle_model/vehicle_model_interface.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="test/test_lowpass_filter.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="test/test_mpc.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="test/test_mpc_utils.cpp"
+    classname="mpc_lateral_controller.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

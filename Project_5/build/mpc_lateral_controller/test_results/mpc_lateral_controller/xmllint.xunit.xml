@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="mpc_lateral_controller.xmllint"
+  tests="23"
+  errors="0"
+  failures="2"
+  time="5.630"
+>
+  <testcase
+    name="package.xml"
+    classname="mpc_lateral_controller.xmllint"
+  >
+      <failure message="Diff with 272 lines"><![CDATA[/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/package.xml:7: element license: Schemas validity error : Element 'license': This element is not expected. Expected is ( maintainer ).
+/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/package.xml fails to validate
+]]></failure>
+  </testcase>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_geometry_msgs/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_mapping_msgs/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_msgs/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_perception_msgs/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_planning_msgs/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_system_msgs/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="autoware_auto_msgs/autoware_auto_vehicle_msgs/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="autoware_cmake/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="autoware_cmake/install/autoware_cmake/share/autoware_cmake/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="build/mpc_lateral_controller/Testing/20240117-1017/Test.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="build/mpc_lateral_controller/Testing/20240117-1018/Test.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="build/mpc_lateral_controller/Testing/20240117-1026/Test.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="build/mpc_lateral_controller/Testing/20240117-1106/Test.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="build/mpc_lateral_controller/test_results/mpc_lateral_controller/copyright.xunit.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="build/mpc_lateral_controller/test_results/mpc_lateral_controller/cppcheck.xunit.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="build/mpc_lateral_controller/test_results/mpc_lateral_controller/lint_cmake.xunit.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="build/mpc_lateral_controller/test_results/mpc_lateral_controller/test_lateral_controller.gtest.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="build/mpc_lateral_controller/test_results/mpc_lateral_controller/xmllint.xunit.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <testcase
+    name="install/mpc_lateral_controller/share/mpc_lateral_controller/package.xml"
+    classname="mpc_lateral_controller.xmllint"
+  >
+      <failure message="Diff with 392 lines"><![CDATA[/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/package.xml:7: element license: Schemas validity error : Element 'license': This element is not expected. Expected is ( maintainer ).
+/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/package.xml fails to validate
+]]></failure>
+  </testcase>
+  <testcase
+    name="mpc_lateral_controller/package.xml"
+    classname="mpc_lateral_controller.xmllint"/>
+  <system-out>Checked files:
+* package.xml
+* autoware_auto_msgs/autoware_auto_control_msgs/package.xml
+* autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.xml
+* autoware_auto_msgs/autoware_auto_geometry_msgs/package.xml
+* autoware_auto_msgs/autoware_auto_mapping_msgs/package.xml
+* autoware_auto_msgs/autoware_auto_msgs/package.xml
+* autoware_auto_msgs/autoware_auto_perception_msgs/package.xml
+* autoware_auto_msgs/autoware_auto_planning_msgs/package.xml
+* autoware_auto_msgs/autoware_auto_system_msgs/package.xml
+* autoware_auto_msgs/autoware_auto_vehicle_msgs/package.xml
+* autoware_cmake/package.xml
+* autoware_cmake/install/autoware_cmake/share/autoware_cmake/package.xml
+* build/mpc_lateral_controller/Testing/20240117-1017/Test.xml
+* build/mpc_lateral_controller/Testing/20240117-1018/Test.xml
+* build/mpc_lateral_controller/Testing/20240117-1026/Test.xml
+* build/mpc_lateral_controller/Testing/20240117-1106/Test.xml
+* build/mpc_lateral_controller/test_results/mpc_lateral_controller/copyright.xunit.xml
+* build/mpc_lateral_controller/test_results/mpc_lateral_controller/cppcheck.xunit.xml
+* build/mpc_lateral_controller/test_results/mpc_lateral_controller/lint_cmake.xunit.xml
+* build/mpc_lateral_controller/test_results/mpc_lateral_controller/test_lateral_controller.gtest.xml
+* build/mpc_lateral_controller/test_results/mpc_lateral_controller/xmllint.xunit.xml
+* install/mpc_lateral_controller/share/mpc_lateral_controller/package.xml
+* mpc_lateral_controller/package.xml</system-out>
+</testsuite>

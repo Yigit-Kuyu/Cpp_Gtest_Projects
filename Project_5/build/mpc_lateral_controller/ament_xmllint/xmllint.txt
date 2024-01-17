@@ -1,0 +1,58 @@
+-- run_test.py: invoking following command in '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller/test_results/mpc_lateral_controller/xmllint.xunit.xml
+
+File 'package.xml' is invalid:
+/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/package.xml:7: element license: Schemas validity error : Element 'license': This element is not expected. Expected is ( maintainer ).
+/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/package.xml fails to validate
+
+File 'install/mpc_lateral_controller/share/mpc_lateral_controller/package.xml' is invalid:
+/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/package.xml:7: element license: Schemas validity error : Element 'license': This element is not expected. Expected is ( maintainer ).
+/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/package.xml fails to validate
+
+2 files are invalid
+File 'autoware_auto_msgs/autoware_auto_control_msgs/package.xml' is valid
+
+File 'autoware_auto_msgs/autoware_auto_control_msgs/install/autoware_auto_control_msgs/share/autoware_auto_control_msgs/package.xml' is valid
+
+File 'autoware_auto_msgs/autoware_auto_geometry_msgs/package.xml' is valid
+
+File 'autoware_auto_msgs/autoware_auto_mapping_msgs/package.xml' is valid
+
+File 'autoware_auto_msgs/autoware_auto_msgs/package.xml' is valid
+
+File 'autoware_auto_msgs/autoware_auto_perception_msgs/package.xml' is valid
+
+File 'autoware_auto_msgs/autoware_auto_planning_msgs/package.xml' is valid
+
+File 'autoware_auto_msgs/autoware_auto_system_msgs/package.xml' is valid
+
+File 'autoware_auto_msgs/autoware_auto_vehicle_msgs/package.xml' is valid
+
+File 'autoware_cmake/package.xml' is valid
+
+File 'autoware_cmake/install/autoware_cmake/share/autoware_cmake/package.xml' is valid
+
+File 'build/mpc_lateral_controller/Testing/20240117-1017/Test.xml' is valid
+
+File 'build/mpc_lateral_controller/Testing/20240117-1018/Test.xml' is valid
+
+File 'build/mpc_lateral_controller/Testing/20240117-1026/Test.xml' is valid
+
+File 'build/mpc_lateral_controller/Testing/20240117-1106/Test.xml' is valid
+
+File 'build/mpc_lateral_controller/test_results/mpc_lateral_controller/copyright.xunit.xml' is valid
+
+File 'build/mpc_lateral_controller/test_results/mpc_lateral_controller/cppcheck.xunit.xml' is valid
+
+File 'build/mpc_lateral_controller/test_results/mpc_lateral_controller/lint_cmake.xunit.xml' is valid
+
+File 'build/mpc_lateral_controller/test_results/mpc_lateral_controller/test_lateral_controller.gtest.xml' is valid
+
+File 'build/mpc_lateral_controller/test_results/mpc_lateral_controller/xmllint.xunit.xml' is valid
+
+File 'mpc_lateral_controller/package.xml' is valid
+
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller/test_results/mpc_lateral_controller/xmllint.xunit.xml'

@@ -1,0 +1,53 @@
+-- run_test.py: invoking following command in '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller':
+ - /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller/test_lateral_controller --gtest_output=xml:/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller/test_results/mpc_lateral_controller/test_lateral_controller.gtest.xml
+
+Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 13 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from MPCTest
+[ RUN      ] MPCTest.InitializeAndCalculate
+[       OK ] MPCTest.InitializeAndCalculate (48 ms)
+[ RUN      ] MPCTest.InitializeAndCalculateRightTurn
+[       OK ] MPCTest.InitializeAndCalculateRightTurn (34 ms)
+[ RUN      ] MPCTest.OsqpCalculate
+[INFO] [1705490778.675681333] [mpc_test_logger]: Polish process failed in osqp. The required accuracy is met, but the solution can be inaccurate.
+[       OK ] MPCTest.OsqpCalculate (35 ms)
+[ RUN      ] MPCTest.OsqpCalculateRightTurn
+[       OK ] MPCTest.OsqpCalculateRightTurn (40 ms)
+[ RUN      ] MPCTest.KinematicsNoDelayCalculate
+[       OK ] MPCTest.KinematicsNoDelayCalculate (35 ms)
+[ RUN      ] MPCTest.KinematicsNoDelayCalculateRightTurn
+[       OK ] MPCTest.KinematicsNoDelayCalculateRightTurn (33 ms)
+[ RUN      ] MPCTest.DynamicCalculate
+[ERROR] [1705490778.871071120] [control.trajectory_follower.lateral_controller]: Predicted trajectory calculation in world coordinate is not supported in dynamic model. Calculate in the Frenet coordinate instead.
+[       OK ] MPCTest.DynamicCalculate (86 ms)
+[ RUN      ] MPCTest.MultiSolveWithBuffer
+[       OK ] MPCTest.MultiSolveWithBuffer (129 ms)
+[ RUN      ] MPCTest.FailureCases
+[WARN] [1705490779.006063800] [mpc_logger]: Too large position error: 8.485281m > 5.000000m
+[WARN] [1705490779.006094651] [mpc_logger]: fail to get MPC Data. Stop MPC.
+[       OK ] MPCTest.FailureCases (9 ms)
+[----------] 9 tests from MPCTest (449 ms total)
+
+[----------] 1 test from TestMPC
+[ RUN      ] TestMPC.CalcStopDistance
+[       OK ] TestMPC.CalcStopDistance (0 ms)
+[----------] 1 test from TestMPC (0 ms total)
+
+[----------] 3 tests from TestLowpassFilter
+[ RUN      ] TestLowpassFilter.MoveAverageFilter
+[       OK ] TestLowpassFilter.MoveAverageFilter (0 ms)
+[ RUN      ] TestLowpassFilter.Butterworth2dFilter
+[       OK ] TestLowpassFilter.Butterworth2dFilter (0 ms)
+[ RUN      ] TestLowpassFilter.Butterworth2dFilterCoeffs
+[       OK ] TestLowpassFilter.Butterworth2dFilterCoeffs (0 ms)
+[----------] 3 tests from TestLowpassFilter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 3 test suites ran. (449 ms total)
+[  PASSED  ] 13 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller/test_results/mpc_lateral_controller/test_lateral_controller.gtest.xml'
+-- run_test.py: verify result file '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller/test_results/mpc_lateral_controller/test_lateral_controller.gtest.xml'

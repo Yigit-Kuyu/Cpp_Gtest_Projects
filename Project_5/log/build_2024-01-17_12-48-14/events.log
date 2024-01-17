@@ -1,0 +1,1054 @@
+[0.000000] (-) TimerEvent: {}
+[0.000329] (mpc_lateral_controller) JobQueued: {'identifier': 'mpc_lateral_controller', 'dependencies': OrderedDict()}
+[0.000439] (mpc_lateral_controller) JobStarted: {'identifier': 'mpc_lateral_controller'}
+[0.099011] (-) TimerEvent: {}
+[0.123975] (mpc_lateral_controller) JobProgress: {'identifier': 'mpc_lateral_controller', 'progress': 'cmake'}
+[0.124150] (mpc_lateral_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5', '-DCMAKE_INSTALL_PREFIX=/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller'], 'cwd': '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eby'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eby/autoware/install/velodyne_pointcloud/lib:/home/eby/autoware/install/velodyne_driver/lib:/home/eby/autoware/install/velodyne_msgs/lib:/home/eby/autoware/install/vehicle_cmd_gate/lib:/home/eby/autoware/install/trajectory_follower_node/lib:/home/eby/autoware/install/pure_pursuit/lib:/home/eby/autoware/install/pid_longitudinal_controller/lib:/home/eby/autoware/install/mpc_lateral_controller/lib:/home/eby/autoware/install/trajectory_follower_base/lib:/home/eby/autoware/install/tier4_planning_rviz_plugin/lib:/home/eby/autoware/install/tier4_localization_rviz_plugin/lib:/home/eby/autoware/install/surround_obstacle_checker/lib:/home/eby/autoware/install/steer_offset_estimator/lib:/home/eby/autoware/install/static_centerline_optimizer/lib:/home/eby/autoware/install/simple_planning_simulator/lib:/home/eby/autoware/install/planning_validator/lib:/home/eby/autoware/install/operation_mode_transition_manager/lib:/home/eby/autoware/install/obstacle_velocity_limiter/lib:/home/eby/autoware/install/obstacle_stop_planner/lib:/home/eby/autoware/install/obstacle_cruise_planner/lib:/home/eby/autoware/install/obstacle_collision_checker/lib:/home/eby/autoware/install/obstacle_avoidance_planner/lib:/home/eby/autoware/install/behavior_velocity_planner/lib:/home/eby/autoware/install/motion_velocity_smoother/lib:/home/eby/autoware/install/mission_planner/lib:/home/eby/autoware/install/behavior_path_planner/lib:/home/eby/autoware/install/lane_departure_checker/lib:/home/eby/autoware/install/ground_segmentation/lib:/home/eby/autoware/install/control_performance_analysis/lib:/home/eby/autoware/install/freespace_planner/lib:/home/eby/autoware/install/freespace_planning_algorithms/lib:/home/eby/autoware/install/vehicle_info_util/lib:/home/eby/autoware/install/tvm_utility/lib:/home/eby/autoware/install/traffic_light_visualization/lib:/home/eby/autoware/install/traffic_light_ssd_fine_detector/lib:/home/eby/autoware/install/traffic_light_selector/lib:/home/eby/autoware/install/traffic_light_map_based_detector/lib:/home/eby/autoware/install/traffic_light_classifier/lib:/home/eby/autoware/install/component_state_monitor/lib:/home/eby/autoware/install/topic_state_monitor/lib:/home/eby/autoware/install/time_utils/lib:/home/eby/autoware/install/tier4_vehicle_rviz_plugin/lib:/home/eby/autoware/install/tier4_calibration_rviz_plugin/lib:/home/eby/autoware/install/external_cmd_selector/lib:/home/eby/autoware/install/autoware_iv_internal_api_adaptor/lib:/home/eby/autoware/install/autoware_iv_external_api_adaptor/lib:/home/eby/autoware/install/external_cmd_converter/lib:/home/eby/autoware/install/raw_vehicle_cmd_converter/lib:/home/eby/autoware/install/tier4_vehicle_msgs/lib:/home/eby/autoware/install/dummy_infrastructure/lib:/home/eby/autoware/install/tier4_v2x_msgs/lib:/home/eby/autoware/install/tier4_traffic_light_rviz_plugin/lib:/home/eby/autoware/install/tier4_api_msgs/lib:/home/eby/autoware/install/mrm_emergency_stop_operator/lib:/home/eby/autoware/install/mrm_comfortable_stop_operator/lib:/home/eby/autoware/install/default_ad_api/lib:/home/eby/autoware/install/tier4_system_msgs/lib:/home/eby/autoware/install/tier4_state_rviz_plugin/lib:/home/eby/autoware/install/fault_injection/lib:/home/eby/autoware/install/diagnostic_converter/lib:/home/eby/autoware/install/tier4_simulation_msgs/lib:/home/eby/autoware/install/tier4_simulated_clock_rviz_plugin/lib:/home/eby/autoware/install/tier4_screen_capture_rviz_plugin/lib:/home/eby/autoware/install/rtc_replayer/lib:/home/eby/autoware/install/rtc_manager_rviz_plugin/lib:/home/eby/autoware/install/rtc_interface/lib:/home/eby/autoware/install/rtc_auto_mode_manager/lib:/home/eby/autoware/install/tier4_rtc_msgs/lib:/home/eby/autoware/install/scenario_selector/lib:/home/eby/autoware/install/planning_debug_tools/lib:/home/eby/autoware/install/external_velocity_limit_selector/lib:/home/eby/autoware/install/costmap_generator/lib:/home/eby/autoware/install/tier4_planning_msgs/lib:/home/eby/autoware/install/tier4_perception_rviz_plugin/lib:/home/eby/autoware/install/tensorrt_yolox/lib:/home/eby/autoware/install/tensorrt_yolo/lib:/home/eby/autoware/install/detection_by_tracker/lib:/home/eby/autoware/install/shape_estimation/lib:/home/eby/autoware/install/object_merger/lib:/home/eby/autoware/install/multi_object_tracker/lib:/home/eby/autoware/install/lidar_apollo_instance_segmentation/lib:/home/eby/autoware/install/image_projection_based_fusion/lib:/home/eby/autoware/install/euclidean_cluster/lib:/home/eby/autoware/install/dummy_perception_publisher/lib:/home/eby/autoware/install/detected_object_validation/lib:/home/eby/autoware/install/detected_object_feature_remover/lib:/home/eby/autoware/install/tier4_perception_msgs/lib:/home/eby/autoware/install/occupancy_grid_map_outlier_filter/lib:/home/eby/autoware/install/compare_map_segmentation/lib:/home/eby/autoware/install/pointcloud_preprocessor/lib:/home/eby/autoware/install/tier4_pcl_extensions/lib:/home/eby/autoware/install/initial_pose_button_panel/lib:/home/eby/autoware/install/tier4_localization_msgs/lib:/home/eby/autoware/install/tier4_hmi_msgs/lib:/home/eby/autoware/install/tier4_control_rviz_plugin/lib:/home/eby/autoware/install/joy_controller/lib:/home/eby/autoware/install/system_monitor/lib:/home/eby/autoware/install/elevation_map_loader/lib:/home/eby/autoware/install/autoware_external_api_msgs/lib:/home/eby/autoware/install/tier4_external_api_msgs/lib:/home/eby/autoware/install/tier4_debug_tools/lib:/home/eby/autoware/install/tier4_debug_rviz_plugin/lib:/home/eby/autoware/install/route_handler/lib:/home/eby/autoware/install/radar_tracks_msgs_converter/lib:/home/eby/autoware/install/radar_static_pointcloud_filter/lib:/home/eby/autoware/install/radar_fusion_to_detected_object/lib:/home/eby/autoware/install/probabilistic_occupancy_grid_map/lib:/home/eby/autoware/install/planning_evaluator/lib:/home/eby/autoware/install/lidar_centerpoint/lib:/home/eby/autoware/install/heatmap_visualizer/lib:/home/eby/autoware/install/perception_utils/lib:/home/eby/autoware/install/path_distance_calculator/lib:/home/eby/autoware/install/map_based_prediction/lib:/home/eby/autoware/install/motion_utils/lib:/home/eby/autoware/install/map_loader/lib:/home/eby/autoware/install/localization_evaluator/lib:/home/eby/autoware/install/kinematic_evaluator/lib:/home/eby/autoware/install/interpolation/lib:/home/eby/autoware/install/imu_corrector/lib:/home/eby/autoware/install/image_diagnostics/lib:/home/eby/autoware/install/gyro_odometer/lib:/home/eby/autoware/install/grid_map_utils/lib:/home/eby/autoware/install/goal_distance_calculator/lib:/home/eby/autoware/install/front_vehicle_velocity_estimator/lib:/home/eby/autoware/install/ekf_localizer/lib:/home/eby/autoware/install/crosswalk_traffic_light_estimator/lib:/home/eby/autoware/install/tier4_autoware_utils/lib:/home/eby/autoware/install/gnss_poser/lib:/home/eby/autoware/install/tier4_debug_msgs/lib:/home/eby/autoware/install/tier4_datetime_rviz_plugin/lib:/home/eby/autoware/install/tier4_control_msgs/lib:/home/eby/autoware/install/tier4_automatic_goal_rviz_plugin/lib:/home/eby/autoware/install/tensorrt_common/lib:/home/eby/autoware/install/signal_processing/lib:/home/eby/autoware/install/shift_decider/lib:/home/eby/autoware/install/radar_threshold_filter/lib:/home/eby/autoware/install/radar_scan_to_pointcloud2/lib:/home/eby/autoware/install/polar_grid/lib:/home/eby/autoware/install/pointcloud_to_laserscan/lib:/home/eby/autoware/install/osqp_interface/lib:/home/eby/autoware/install/object_range_splitter/lib:/home/eby/autoware/install/ndt_omp/lib:/home/eby/autoware/install/mussp/lib:/home/eby/autoware/install/morai_msgs/lib:/home/eby/autoware/install/map_tf_generator/lib:/home/eby/autoware/install/map_height_fitter/lib:/home/eby/autoware/install/livox_tag_filter/lib:/home/eby/autoware/install/lanelet2_extension/lib:/home/eby/autoware/install/kalman_filter/lib:/home/eby/autoware/install/image_transport_decompressor/lib:/home/eby/autoware/install/geo_pos_conv/lib:/home/eby/autoware/install/fake_test_node/lib:/home/eby/autoware/install/bluetooth_monitor/lib:/home/eby/autoware/install/bag_time_manager_rviz_plugin/lib:/home/eby/autoware/install/autoware_utils/lib:/home/eby/autoware/install/autoware_sensing_msgs/lib:/home/eby/autoware/install/autoware_planning_msgs/lib:/home/eby/autoware/install/autoware_perception_msgs/lib:/home/eby/autoware/install/autoware_map_msgs/lib:/home/eby/autoware/install/autoware_localization_msgs/lib:/home/eby/autoware/install/autoware_control_msgs/lib:/home/eby/autoware/install/autoware_common_msgs/lib:/home/eby/autoware/install/autoware_auto_geometry/lib:/home/eby/autoware/install/autoware_auto_vehicle_msgs/lib:/home/eby/autoware/install/autoware_auto_system_msgs/lib:/home/eby/autoware/install/autoware_auto_planning_msgs/lib:/home/eby/autoware/install/autoware_auto_perception_rviz_plugin/lib:/home/eby/autoware/install/autoware_auto_perception_msgs/lib:/home/eby/autoware/install/autoware_auto_mapping_msgs/lib:/home/eby/autoware/install/autoware_auto_geometry_msgs/lib:/home/eby/autoware/install/autoware_auto_control_msgs/lib:/home/eby/autoware/install/autoware_adapi_version_msgs/lib:/home/eby/autoware/install/autoware_adapi_v1_msgs/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eby'), ('OLDPWD', '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/autoware_auto_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '54642'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/eby/autoware/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eby'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/eby/autoware/install/velodyne_description/share/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/eby/autoware/install/trtexec_vendor/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/eby/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/eby/.local/bin:/home/eby/.local/bin'), ('SESSION_MANAGER', 'local/eby-HP-Z4-G4-Workstation:@/tmp/.ICE-unix/1772,unix/eby-HP-Z4-G4-Workstation:/tmp/.ICE-unix/1772'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b5a9b27_6c3d_49b3_b16e_2476cc4c4790'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eby/autoware/install/vls_description:/home/eby/autoware/install/sample_sensor_kit_launch:/home/eby/autoware/install/awsim_sensor_kit_launch:/home/eby/autoware/install/common_sensor_launch:/home/eby/autoware/install/common_awsim_sensor_launch:/home/eby/autoware/install/velodyne_pointcloud:/home/eby/autoware/install/velodyne_driver:/home/eby/autoware/install/velodyne_msgs:/home/eby/autoware/install/velodyne_monitor:/home/eby/autoware/install/sample_sensor_kit_description:/home/eby/autoware/install/awsim_sensor_kit_description:/home/eby/autoware/install/velodyne_description:/home/eby/autoware/install/vehicle_velocity_converter:/home/eby/autoware/install/autoware_launch:/home/eby/autoware/install/tier4_control_launch:/home/eby/autoware/install/vehicle_cmd_gate:/home/eby/autoware/install/trajectory_follower_node:/home/eby/autoware/install/pure_pursuit:/home/eby/autoware/install/pid_longitudinal_controller:/home/eby/autoware/install/mpc_lateral_controller:/home/eby/autoware/install/trajectory_follower_base:/home/eby/autoware/install/tier4_simulator_launch:/home/eby/autoware/install/tier4_sensing_launch:/home/eby/autoware/install/tier4_planning_rviz_plugin:/home/eby/autoware/install/tier4_planning_launch:/home/eby/autoware/install/tier4_perception_launch:/home/eby/autoware/install/tier4_localization_rviz_plugin:/home/eby/autoware/install/surround_obstacle_checker:/home/eby/autoware/install/steer_offset_estimator:/home/eby/autoware/install/static_centerline_optimizer:/home/eby/autoware/install/simple_planning_simulator:/home/eby/autoware/install/planning_validator:/home/eby/autoware/install/pacmod_interface:/home/eby/autoware/install/operation_mode_transition_manager:/home/eby/autoware/install/obstacle_velocity_limiter:/home/eby/autoware/install/obstacle_stop_planner:/home/eby/autoware/install/obstacle_cruise_planner:/home/eby/autoware/install/obstacle_collision_checker:/home/eby/autoware/install/obstacle_avoidance_planner:/home/eby/autoware/install/behavior_velocity_planner:/home/eby/autoware/install/motion_velocity_smoother:/home/eby/autoware/install/mission_planner:/home/eby/autoware/install/behavior_path_planner:/home/eby/autoware/install/lane_departure_checker:/home/eby/autoware/install/ground_segmentation:/home/eby/autoware/install/control_performance_analysis:/home/eby/autoware/install/global_parameter_loader:/home/eby/autoware/install/freespace_planner:/home/eby/autoware/install/freespace_planning_algorithms:/home/eby/autoware/install/vehicle_info_util:/home/eby/autoware/install/twist2accel:/home/eby/autoware/install/lidar_centerpoint_tvm:/home/eby/autoware/install/lidar_apollo_segmentation_tvm_nodes:/home/eby/autoware/install/lidar_apollo_segmentation_tvm:/home/eby/autoware/install/tvm_utility:/home/eby/autoware/install/trtexec_vendor:/home/eby/autoware/install/traffic_light_visualization:/home/eby/autoware/install/traffic_light_ssd_fine_detector:/home/eby/autoware/install/traffic_light_selector:/home/eby/autoware/install/traffic_light_map_based_detector:/home/eby/autoware/install/traffic_light_classifier:/home/eby/autoware/install/tier4_system_launch:/home/eby/autoware/install/component_state_monitor:/home/eby/autoware/install/topic_state_monitor:/home/eby/autoware/install/time_utils:/home/eby/autoware/install/tier4_vehicle_rviz_plugin:/home/eby/autoware/install/tier4_calibration_rviz_plugin:/home/eby/autoware/install/tier4_autoware_api_launch:/home/eby/autoware/install/external_cmd_selector:/home/eby/autoware/install/awapi_awiv_adapter:/home/eby/autoware/install/autoware_iv_internal_api_adaptor:/home/eby/autoware/install/autoware_iv_external_api_adaptor:/home/eby/autoware/install/tier4_auto_msgs_converter:/home/eby/autoware/install/external_cmd_converter:/home/eby/autoware/install/accel_brake_map_calibrator:/home/eby/autoware/install/raw_vehicle_cmd_converter:/home/eby/autoware/install/tier4_vehicle_msgs:/home/eby/autoware/install/tier4_vehicle_launch:/home/eby/autoware/install/dummy_infrastructure:/home/eby/autoware/install/tier4_v2x_msgs:/home/eby/autoware/install/tier4_traffic_light_rviz_plugin:/home/eby/autoware/install/tier4_localization_launch:/home/eby/autoware/install/tier4_api_msgs:/home/eby/autoware/install/pose_initializer:/home/eby/autoware/install/mrm_emergency_stop_operator:/home/eby/autoware/install/mrm_comfortable_stop_operator:/home/eby/autoware/install/emergency_handler:/home/eby/autoware/install/default_ad_api:/home/eby/autoware/install/automatic_pose_initializer:/home/eby/autoware/install/ad_api_adaptors:/home/eby/autoware/install/component_interface_utils:/home/eby/autoware/install/component_interface_tools:/home/eby/autoware/install/tier4_system_msgs:/home/eby/autoware/install/tier4_state_rviz_plugin:/home/eby/autoware/install/fault_injection:/home/eby/autoware/install/diagnostic_converter:/home/eby/autoware/install/tier4_simulation_msgs:/home/eby/autoware/install/tier4_simulated_clock_rviz_plugin:/home/eby/autoware/install/tier4_screen_capture_rviz_plugin:/home/eby/autoware/install/rtc_replayer:/home/eby/autoware/install/rtc_manager_rviz_plugin:/home/eby/autoware/install/rtc_interface:/home/eby/autoware/install/rtc_auto_mode_manager:/home/eby/autoware/install/tier4_rtc_msgs:/home/eby/autoware/install/scenario_selector:/home/eby/autoware/install/planning_debug_tools:/home/eby/autoware/install/external_velocity_limit_selector:/home/eby/autoware/install/costmap_generator:/home/eby/autoware/install/tier4_planning_msgs:/home/eby/autoware/install/tier4_perception_rviz_plugin:/home/eby/autoware/install/tensorrt_yolox:/home/eby/autoware/install/tensorrt_yolo:/home/eby/autoware/install/detection_by_tracker:/home/eby/autoware/install/shape_estimation:/home/eby/autoware/install/object_merger:/home/eby/autoware/install/multi_object_tracker:/home/eby/autoware/install/lidar_apollo_instance_segmentation:/home/eby/autoware/install/image_projection_based_fusion:/home/eby/autoware/install/euclidean_cluster:/home/eby/autoware/install/dummy_perception_publisher:/home/eby/autoware/install/detected_object_validation:/home/eby/autoware/install/detected_object_feature_remover:/home/eby/autoware/install/tier4_perception_msgs:/home/eby/autoware/install/occupancy_grid_map_outlier_filter:/home/eby/autoware/install/compare_map_segmentation:/home/eby/autoware/install/pointcloud_preprocessor:/home/eby/autoware/install/tier4_pcl_extensions:/home/eby/autoware/install/tier4_map_launch:/home/eby/autoware/install/ndt_scan_matcher:/home/eby/autoware/install/initial_pose_button_panel:/home/eby/autoware/install/tier4_localization_msgs:/home/eby/autoware/install/tier4_hmi_msgs:/home/eby/autoware/install/tier4_control_rviz_plugin:/home/eby/autoware/install/joy_controller:/home/eby/autoware/install/tier4_api_utils:/home/eby/autoware/install/system_monitor:/home/eby/autoware/install/elevation_map_loader:/home/eby/autoware/install/autoware_external_api_msgs:/home/eby/autoware/install/tier4_external_api_msgs:/home/eby/autoware/install/tier4_debug_tools:/home/eby/autoware/install/tier4_debug_rviz_plugin:/home/eby/autoware/install/system_error_monitor:/home/eby/autoware/install/route_handler:/home/eby/autoware/install/radar_tracks_msgs_converter:/home/eby/autoware/install/radar_static_pointcloud_filter:/home/eby/autoware/install/radar_fusion_to_detected_object:/home/eby/autoware/install/probabilistic_occupancy_grid_map:/home/eby/autoware/install/planning_evaluator:/home/eby/autoware/install/lidar_centerpoint:/home/eby/autoware/install/heatmap_visualizer:/home/eby/autoware/install/perception_utils:/home/eby/autoware/install/path_distance_calculator:/home/eby/autoware/install/map_based_prediction:/home/eby/autoware/install/motion_utils:/home/eby/autoware/install/map_loader:/home/eby/autoware/install/localization_evaluator:/home/eby/autoware/install/kinematic_evaluator:/home/eby/autoware/install/interpolation:/home/eby/autoware/install/imu_corrector:/home/eby/autoware/install/image_diagnostics:/home/eby/autoware/install/gyro_odometer:/home/eby/autoware/install/grid_map_utils:/home/eby/autoware/install/goal_distance_calculator:/home/eby/autoware/install/front_vehicle_velocity_estimator:/home/eby/autoware/install/ekf_localizer:/home/eby/autoware/install/dummy_diag_publisher:/home/eby/autoware/install/crosswalk_traffic_light_estimator:/home/eby/autoware/install/tier4_autoware_utils:/home/eby/autoware/install/stop_filter:/home/eby/autoware/install/pose2twist:/home/eby/autoware/install/gnss_poser:/home/eby/autoware/install/tier4_debug_msgs:/home/eby/autoware/install/tier4_datetime_rviz_plugin:/home/eby/autoware/install/tier4_control_msgs:/home/eby/autoware/install/tier4_automatic_goal_rviz_plugin:/home/eby/autoware/install/tensorrt_common:/home/eby/autoware/install/tamagawa_imu_driver:/home/eby/autoware/install/simulator_compatibility_test:/home/eby/autoware/install/signal_processing:/home/eby/autoware/install/shift_decider:/home/eby/autoware/install/sample_vehicle_launch:/home/eby/autoware/install/sample_vehicle_description:/home/eby/autoware/install/radar_threshold_filter:/home/eby/autoware/install/radar_scan_to_pointcloud2:/home/eby/autoware/install/polar_grid:/home/eby/autoware/install/pointcloud_to_laserscan:/home/eby/autoware/install/pandar_description:/home/eby/autoware/install/osqp_interface:/home/eby/autoware/install/object_range_splitter:/home/eby/autoware/install/ndt_omp:/home/eby/autoware/install/mussp:/home/eby/autoware/install/morai_msgs:/home/eby/autoware/install/map_tf_generator:/home/eby/autoware/install/map_height_fitter:/home/eby/autoware/install/localization_error_monitor:/home/eby/autoware/install/livox_tag_filter:/home/eby/autoware/install/livox_description:/home/eby/autoware/install/lanelet2_map_preprocessor:/home/eby/autoware/install/lanelet2_extension:/home/eby/autoware/install/kalman_filter:/home/eby/autoware/install/individual_params:/home/eby/autoware/install/imu_description:/home/eby/autoware/install/image_transport_decompressor:/home/eby/autoware/install/geo_pos_conv:/home/eby/autoware/install/fake_test_node:/home/eby/autoware/install/cuda_utils:/home/eby/autoware/install/component_interface_specs:/home/eby/autoware/install/camera_description:/home/eby/autoware/install/bluetooth_monitor:/home/eby/autoware/install/bag_time_manager_rviz_plugin:/home/eby/autoware/install/autoware_utils:/home/eby/autoware/install/autoware_testing:/home/eby/autoware/install/autoware_sensing_msgs:/home/eby/autoware/install/autoware_point_types:/home/eby/autoware/install/autoware_planning_msgs:/home/eby/autoware/install/autoware_perception_msgs:/home/eby/autoware/install/autoware_map_msgs:/home/eby/autoware/install/autoware_localization_msgs:/home/eby/autoware/install/autoware_lint_common:/home/eby/autoware/install/autoware_control_msgs:/home/eby/autoware/install/autoware_common_msgs:/home/eby/autoware/install/autoware_cmake:/home/eby/autoware/install/autoware_auto_msgs:/home/eby/autoware/install/autoware_auto_geometry:/home/eby/autoware/install/autoware_auto_vehicle_msgs:/home/eby/autoware/install/autoware_auto_tf2:/home/eby/autoware/install/autoware_auto_system_msgs:/home/eby/autoware/install/autoware_auto_planning_msgs:/home/eby/autoware/install/autoware_auto_perception_rviz_plugin:/home/eby/autoware/install/autoware_auto_perception_msgs:/home/eby/autoware/install/autoware_auto_mapping_msgs:/home/eby/autoware/install/autoware_auto_geometry_msgs:/home/eby/autoware/install/autoware_auto_control_msgs:/home/eby/autoware/install/autoware_auto_common:/home/eby/autoware/install/autoware_adapi_version_msgs:/home/eby/autoware/install/ad_api_visualizers:/home/eby/autoware/install/autoware_adapi_v1_msgs:/home/eby/autoware/install/autoware_ad_api_specs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eby/autoware/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/static_centerline_optimizer/local/lib/python3.10/dist-packages:/home/eby/autoware/install/planning_validator/local/lib/python3.10/dist-packages:/home/eby/autoware/install/operation_mode_transition_manager/local/lib/python3.10/dist-packages:/home/eby/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_vehicle_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_simulation_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_localization_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_hmi_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_external_api_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_control_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/build/simulator_compatibility_test:/home/eby/autoware/install/simulator_compatibility_test/lib/python3.10/site-packages:/home/eby/autoware/install/morai_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_map_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_localization_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_control_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_system_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_adapi_version_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/build/ad_api_visualizers:/home/eby/autoware/install/ad_api_visualizers/lib/python3.10/site-packages:/home/eby/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eby/autoware/install/vls_description:/home/eby/autoware/install/sample_sensor_kit_launch:/home/eby/autoware/install/awsim_sensor_kit_launch:/home/eby/autoware/install/common_sensor_launch:/home/eby/autoware/install/common_awsim_sensor_launch:/home/eby/autoware/install/velodyne_pointcloud:/home/eby/autoware/install/velodyne_driver:/home/eby/autoware/install/velodyne_msgs:/home/eby/autoware/install/velodyne_monitor:/home/eby/autoware/install/sample_sensor_kit_description:/home/eby/autoware/install/awsim_sensor_kit_description:/home/eby/autoware/install/velodyne_description:/home/eby/autoware/install/vehicle_velocity_converter:/home/eby/autoware/install/autoware_launch:/home/eby/autoware/install/tier4_control_launch:/home/eby/autoware/install/vehicle_cmd_gate:/home/eby/autoware/install/trajectory_follower_node:/home/eby/autoware/install/pure_pursuit:/home/eby/autoware/install/pid_longitudinal_controller:/home/eby/autoware/install/mpc_lateral_controller:/home/eby/autoware/install/trajectory_follower_base:/home/eby/autoware/install/tier4_simulator_launch:/home/eby/autoware/install/tier4_sensing_launch:/home/eby/autoware/install/tier4_planning_rviz_plugin:/home/eby/autoware/install/tier4_planning_launch:/home/eby/autoware/install/tier4_perception_launch:/home/eby/autoware/install/tier4_localization_rviz_plugin:/home/eby/autoware/install/surround_obstacle_checker:/home/eby/autoware/install/steer_offset_estimator:/home/eby/autoware/install/static_centerline_optimizer:/home/eby/autoware/install/simple_planning_simulator:/home/eby/autoware/install/planning_validator:/home/eby/autoware/install/pacmod_interface:/home/eby/autoware/install/operation_mode_transition_manager:/home/eby/autoware/install/obstacle_velocity_limiter:/home/eby/autoware/install/obstacle_stop_planner:/home/eby/autoware/install/obstacle_cruise_planner:/home/eby/autoware/install/obstacle_collision_checker:/home/eby/autoware/install/obstacle_avoidance_planner:/home/eby/autoware/install/behavior_velocity_planner:/home/eby/autoware/install/motion_velocity_smoother:/home/eby/autoware/install/mission_planner:/home/eby/autoware/install/behavior_path_planner:/home/eby/autoware/install/lane_departure_checker:/home/eby/autoware/install/ground_segmentation:/home/eby/autoware/install/control_performance_analysis:/home/eby/autoware/install/global_parameter_loader:/home/eby/autoware/install/freespace_planner:/home/eby/autoware/install/freespace_planning_algorithms:/home/eby/autoware/install/vehicle_info_util:/home/eby/autoware/install/twist2accel:/home/eby/autoware/install/lidar_centerpoint_tvm:/home/eby/autoware/install/lidar_apollo_segmentation_tvm_nodes:/home/eby/autoware/install/lidar_apollo_segmentation_tvm:/home/eby/autoware/install/tvm_utility:/home/eby/autoware/install/trtexec_vendor:/home/eby/autoware/install/traffic_light_visualization:/home/eby/autoware/install/traffic_light_ssd_fine_detector:/home/eby/autoware/install/traffic_light_selector:/home/eby/autoware/install/traffic_light_map_based_detector:/home/eby/autoware/install/traffic_light_classifier:/home/eby/autoware/install/tier4_system_launch:/home/eby/autoware/install/component_state_monitor:/home/eby/autoware/install/topic_state_monitor:/home/eby/autoware/install/time_utils:/home/eby/autoware/install/tier4_vehicle_rviz_plugin:/home/eby/autoware/install/tier4_calibration_rviz_plugin:/home/eby/autoware/install/tier4_autoware_api_launch:/home/eby/autoware/install/external_cmd_selector:/home/eby/autoware/install/awapi_awiv_adapter:/home/eby/autoware/install/autoware_iv_internal_api_adaptor:/home/eby/autoware/install/autoware_iv_external_api_adaptor:/home/eby/autoware/install/tier4_auto_msgs_converter:/home/eby/autoware/install/external_cmd_converter:/home/eby/autoware/install/accel_brake_map_calibrator:/home/eby/autoware/install/raw_vehicle_cmd_converter:/home/eby/autoware/install/tier4_vehicle_msgs:/home/eby/autoware/install/tier4_vehicle_launch:/home/eby/autoware/install/dummy_infrastructure:/home/eby/autoware/install/tier4_v2x_msgs:/home/eby/autoware/install/tier4_traffic_light_rviz_plugin:/home/eby/autoware/install/tier4_localization_launch:/home/eby/autoware/install/tier4_api_msgs:/home/eby/autoware/install/pose_initializer:/home/eby/autoware/install/mrm_emergency_stop_operator:/home/eby/autoware/install/mrm_comfortable_stop_operator:/home/eby/autoware/install/emergency_handler:/home/eby/autoware/install/default_ad_api:/home/eby/autoware/install/automatic_pose_initializer:/home/eby/autoware/install/ad_api_adaptors:/home/eby/autoware/install/component_interface_utils:/home/eby/autoware/install/component_interface_tools:/home/eby/autoware/install/tier4_system_msgs:/home/eby/autoware/install/tier4_state_rviz_plugin:/home/eby/autoware/install/fault_injection:/home/eby/autoware/install/diagnostic_converter:/home/eby/autoware/install/tier4_simulation_msgs:/home/eby/autoware/install/tier4_simulated_clock_rviz_plugin:/home/eby/autoware/install/tier4_screen_capture_rviz_plugin:/home/eby/autoware/install/rtc_replayer:/home/eby/autoware/install/rtc_manager_rviz_plugin:/home/eby/autoware/install/rtc_interface:/home/eby/autoware/install/rtc_auto_mode_manager:/home/eby/autoware/install/tier4_rtc_msgs:/home/eby/autoware/install/scenario_selector:/home/eby/autoware/install/planning_debug_tools:/home/eby/autoware/install/external_velocity_limit_selector:/home/eby/autoware/install/costmap_generator:/home/eby/autoware/install/tier4_planning_msgs:/home/eby/autoware/install/tier4_perception_rviz_plugin:/home/eby/autoware/install/tensorrt_yolox:/home/eby/autoware/install/tensorrt_yolo:/home/eby/autoware/install/detection_by_tracker:/home/eby/autoware/install/shape_estimation:/home/eby/autoware/install/object_merger:/home/eby/autoware/install/multi_object_tracker:/home/eby/autoware/install/lidar_apollo_instance_segmentation:/home/eby/autoware/install/image_projection_based_fusion:/home/eby/autoware/install/euclidean_cluster:/home/eby/autoware/install/dummy_perception_publisher:/home/eby/autoware/install/detected_object_validation:/home/eby/autoware/install/detected_object_feature_remover:/home/eby/autoware/install/tier4_perception_msgs:/home/eby/autoware/install/occupancy_grid_map_outlier_filter:/home/eby/autoware/install/compare_map_segmentation:/home/eby/autoware/install/pointcloud_preprocessor:/home/eby/autoware/install/tier4_pcl_extensions:/home/eby/autoware/install/tier4_map_launch:/home/eby/autoware/install/ndt_scan_matcher:/home/eby/autoware/install/initial_pose_button_panel:/home/eby/autoware/install/tier4_localization_msgs:/home/eby/autoware/install/tier4_hmi_msgs:/home/eby/autoware/install/tier4_control_rviz_plugin:/home/eby/autoware/install/joy_controller:/home/eby/autoware/install/tier4_api_utils:/home/eby/autoware/install/system_monitor:/home/eby/autoware/install/elevation_map_loader:/home/eby/autoware/install/autoware_external_api_msgs:/home/eby/autoware/install/tier4_external_api_msgs:/home/eby/autoware/install/tier4_debug_tools:/home/eby/autoware/install/tier4_debug_rviz_plugin:/home/eby/autoware/install/system_error_monitor:/home/eby/autoware/install/route_handler:/home/eby/autoware/install/radar_tracks_msgs_converter:/home/eby/autoware/install/radar_static_pointcloud_filter:/home/eby/autoware/install/radar_fusion_to_detected_object:/home/eby/autoware/install/probabilistic_occupancy_grid_map:/home/eby/autoware/install/planning_evaluator:/home/eby/autoware/install/lidar_centerpoint:/home/eby/autoware/install/heatmap_visualizer:/home/eby/autoware/install/perception_utils:/home/eby/autoware/install/path_distance_calculator:/home/eby/autoware/install/map_based_prediction:/home/eby/autoware/install/motion_utils:/home/eby/autoware/install/map_loader:/home/eby/autoware/install/localization_evaluator:/home/eby/autoware/install/kinematic_evaluator:/home/eby/autoware/install/interpolation:/home/eby/autoware/install/imu_corrector:/home/eby/autoware/install/image_diagnostics:/home/eby/autoware/install/gyro_odometer:/home/eby/autoware/install/grid_map_utils:/home/eby/autoware/install/goal_distance_calculator:/home/eby/autoware/install/front_vehicle_velocity_estimator:/home/eby/autoware/install/ekf_localizer:/home/eby/autoware/install/dummy_diag_publisher:/home/eby/autoware/install/crosswalk_traffic_light_estimator:/home/eby/autoware/install/tier4_autoware_utils:/home/eby/autoware/install/stop_filter:/home/eby/autoware/install/pose2twist:/home/eby/autoware/install/gnss_poser:/home/eby/autoware/install/tier4_debug_msgs:/home/eby/autoware/install/tier4_datetime_rviz_plugin:/home/eby/autoware/install/tier4_control_msgs:/home/eby/autoware/install/tier4_automatic_goal_rviz_plugin:/home/eby/autoware/install/tensorrt_common:/home/eby/autoware/install/tamagawa_imu_driver:/home/eby/autoware/install/signal_processing:/home/eby/autoware/install/shift_decider:/home/eby/autoware/install/sample_vehicle_launch:/home/eby/autoware/install/sample_vehicle_description:/home/eby/autoware/install/radar_threshold_filter:/home/eby/autoware/install/radar_scan_to_pointcloud2:/home/eby/autoware/install/polar_grid:/home/eby/autoware/install/pointcloud_to_laserscan:/home/eby/autoware/install/pandar_description:/home/eby/autoware/install/osqp_interface:/home/eby/autoware/install/object_range_splitter:/home/eby/autoware/install/ndt_omp:/home/eby/autoware/install/mussp:/home/eby/autoware/install/morai_msgs:/home/eby/autoware/install/map_tf_generator:/home/eby/autoware/install/map_height_fitter:/home/eby/autoware/install/localization_error_monitor:/home/eby/autoware/install/livox_tag_filter:/home/eby/autoware/install/livox_description:/home/eby/autoware/install/lanelet2_map_preprocessor:/home/eby/autoware/install/lanelet2_extension:/home/eby/autoware/install/kalman_filter:/home/eby/autoware/install/individual_params:/home/eby/autoware/install/imu_description:/home/eby/autoware/install/image_transport_decompressor:/home/eby/autoware/install/geo_pos_conv:/home/eby/autoware/install/fake_test_node:/home/eby/autoware/install/cuda_utils:/home/eby/autoware/install/component_interface_specs:/home/eby/autoware/install/camera_description:/home/eby/autoware/install/bluetooth_monitor:/home/eby/autoware/install/bag_time_manager_rviz_plugin:/home/eby/autoware/install/autoware_utils:/home/eby/autoware/install/autoware_testing:/home/eby/autoware/install/autoware_sensing_msgs:/home/eby/autoware/install/autoware_point_types:/home/eby/autoware/install/autoware_planning_msgs:/home/eby/autoware/install/autoware_perception_msgs:/home/eby/autoware/install/autoware_map_msgs:/home/eby/autoware/install/autoware_localization_msgs:/home/eby/autoware/install/autoware_lint_common:/home/eby/autoware/install/autoware_control_msgs:/home/eby/autoware/install/autoware_common_msgs:/home/eby/autoware/install/autoware_cmake:/home/eby/autoware/install/autoware_auto_msgs:/home/eby/autoware/install/autoware_auto_geometry:/home/eby/autoware/install/autoware_auto_vehicle_msgs:/home/eby/autoware/install/autoware_auto_tf2:/home/eby/autoware/install/autoware_auto_system_msgs:/home/eby/autoware/install/autoware_auto_planning_msgs:/home/eby/autoware/install/autoware_auto_perception_rviz_plugin:/home/eby/autoware/install/autoware_auto_perception_msgs:/home/eby/autoware/install/autoware_auto_mapping_msgs:/home/eby/autoware/install/autoware_auto_geometry_msgs:/home/eby/autoware/install/autoware_auto_control_msgs:/home/eby/autoware/install/autoware_auto_common:/home/eby/autoware/install/autoware_adapi_version_msgs:/home/eby/autoware/install/autoware_adapi_v1_msgs:/home/eby/autoware/install/autoware_ad_api_specs:/home/eby/autoware/install/simulator_compatibility_test:/home/eby/autoware/install/ad_api_visualizers:/opt/ros/humble')]), 'shell': False}
+[0.199144] (-) TimerEvent: {}
+[0.299599] (-) TimerEvent: {}
+[0.333646] (mpc_lateral_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399881] (-) TimerEvent: {}
+[0.468618] (mpc_lateral_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.485935] (mpc_lateral_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499969] (-) TimerEvent: {}
+[0.600375] (-) TimerEvent: {}
+[0.700736] (-) TimerEvent: {}
+[0.769305] (mpc_lateral_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.777678] (mpc_lateral_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.777964] (mpc_lateral_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.778215] (mpc_lateral_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.780980] (mpc_lateral_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800850] (-) TimerEvent: {}
+[0.901269] (-) TimerEvent: {}
+[1.001562] (-) TimerEvent: {}
+[1.070091] (mpc_lateral_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.077268] (mpc_lateral_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.077678] (mpc_lateral_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.078399] (mpc_lateral_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.101818] (-) TimerEvent: {}
+[1.103351] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found autoware_cmake: 0.1.0 (/home/eby/autoware/install/autoware_cmake/share/autoware_cmake/cmake)\n'}
+[1.201947] (-) TimerEvent: {}
+[1.302582] (-) TimerEvent: {}
+[1.402998] (-) TimerEvent: {}
+[1.503311] (-) TimerEvent: {}
+[1.564345] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.603431] (-) TimerEvent: {}
+[1.703804] (-) TimerEvent: {}
+[1.804272] (-) TimerEvent: {}
+[1.904726] (-) TimerEvent: {}
+[2.005325] (-) TimerEvent: {}
+[2.105707] (-) TimerEvent: {}
+[2.206195] (-) TimerEvent: {}
+[2.306621] (-) TimerEvent: {}
+[2.407011] (-) TimerEvent: {}
+[2.494450] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.507128] (-) TimerEvent: {}
+[2.551581] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.607265] (-) TimerEvent: {}
+[2.616267] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.699643] (mpc_lateral_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.707554] (-) TimerEvent: {}
+[2.808119] (-) TimerEvent: {}
+[2.812851] (mpc_lateral_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.908437] (-) TimerEvent: {}
+[3.009040] (-) TimerEvent: {}
+[3.109626] (-) TimerEvent: {}
+[3.210196] (-) TimerEvent: {}
+[3.310636] (-) TimerEvent: {}
+[3.411054] (-) TimerEvent: {}
+[3.511435] (-) TimerEvent: {}
+[3.611861] (-) TimerEvent: {}
+[3.712470] (-) TimerEvent: {}
+[3.813088] (-) TimerEvent: {}
+[3.913711] (-) TimerEvent: {}
+[4.014317] (-) TimerEvent: {}
+[4.114869] (-) TimerEvent: {}
+[4.215276] (-) TimerEvent: {}
+[4.315677] (-) TimerEvent: {}
+[4.416295] (-) TimerEvent: {}
+[4.516938] (-) TimerEvent: {}
+[4.530916] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.575276] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[4.617034] (-) TimerEvent: {}
+[4.717370] (-) TimerEvent: {}
+[4.778323] (mpc_lateral_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[4.817468] (-) TimerEvent: {}
+[4.865058] (mpc_lateral_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.917601] (-) TimerEvent: {}
+[5.017874] (-) TimerEvent: {}
+[5.118341] (-) TimerEvent: {}
+[5.157272] (mpc_lateral_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.157555] (mpc_lateral_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.218540] (-) TimerEvent: {}
+[5.318835] (-) TimerEvent: {}
+[5.419182] (-) TimerEvent: {}
+[5.437445] (mpc_lateral_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.438923] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.519284] (-) TimerEvent: {}
+[5.619588] (-) TimerEvent: {}
+[5.719903] (-) TimerEvent: {}
+[5.820421] (-) TimerEvent: {}
+[5.920931] (-) TimerEvent: {}
+[6.021486] (-) TimerEvent: {}
+[6.122035] (-) TimerEvent: {}
+[6.222434] (-) TimerEvent: {}
+[6.322853] (-) TimerEvent: {}
+[6.423285] (-) TimerEvent: {}
+[6.523723] (-) TimerEvent: {}
+[6.543427] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.544690] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[6.544947] (mpc_lateral_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.624033] (-) TimerEvent: {}
+[6.724670] (-) TimerEvent: {}
+[6.825344] (-) TimerEvent: {}
+[6.925796] (-) TimerEvent: {}
+[7.026429] (-) TimerEvent: {}
+[7.126840] (-) TimerEvent: {}
+[7.227241] (-) TimerEvent: {}
+[7.327605] (-) TimerEvent: {}
+[7.428117] (-) TimerEvent: {}
+[7.528557] (-) TimerEvent: {}
+[7.629146] (-) TimerEvent: {}
+[7.729637] (-) TimerEvent: {}
+[7.830179] (-) TimerEvent: {}
+[7.930546] (-) TimerEvent: {}
+[8.030877] (-) TimerEvent: {}
+[8.131242] (-) TimerEvent: {}
+[8.231637] (-) TimerEvent: {}
+[8.332212] (-) TimerEvent: {}
+[8.432649] (-) TimerEvent: {}
+[8.533220] (-) TimerEvent: {}
+[8.633746] (-) TimerEvent: {}
+[8.734159] (-) TimerEvent: {}
+[8.834641] (-) TimerEvent: {}
+[8.935136] (-) TimerEvent: {}
+[9.035581] (-) TimerEvent: {}
+[9.136176] (-) TimerEvent: {}
+[9.236738] (-) TimerEvent: {}
+[9.337276] (-) TimerEvent: {}
+[9.437593] (-) TimerEvent: {}
+[9.538036] (-) TimerEvent: {}
+[9.638577] (-) TimerEvent: {}
+[9.739031] (-) TimerEvent: {}
+[9.839484] (-) TimerEvent: {}
+[9.940111] (-) TimerEvent: {}
+[10.040546] (-) TimerEvent: {}
+[10.141129] (-) TimerEvent: {}
+[10.241688] (-) TimerEvent: {}
+[10.342221] (-) TimerEvent: {}
+[10.442588] (-) TimerEvent: {}
+[10.542970] (-) TimerEvent: {}
+[10.643382] (-) TimerEvent: {}
+[10.743771] (-) TimerEvent: {}
+[10.844370] (-) TimerEvent: {}
+[10.944976] (-) TimerEvent: {}
+[11.045383] (-) TimerEvent: {}
+[11.145964] (-) TimerEvent: {}
+[11.246404] (-) TimerEvent: {}
+[11.346741] (-) TimerEvent: {}
+[11.447103] (-) TimerEvent: {}
+[11.547560] (-) TimerEvent: {}
+[11.648163] (-) TimerEvent: {}
+[11.748681] (-) TimerEvent: {}
+[11.849271] (-) TimerEvent: {}
+[11.949819] (-) TimerEvent: {}
+[12.050428] (-) TimerEvent: {}
+[12.150862] (-) TimerEvent: {}
+[12.251242] (-) TimerEvent: {}
+[12.351593] (-) TimerEvent: {}
+[12.451956] (-) TimerEvent: {}
+[12.552569] (-) TimerEvent: {}
+[12.652992] (-) TimerEvent: {}
+[12.753589] (-) TimerEvent: {}
+[12.854002] (-) TimerEvent: {}
+[12.954571] (-) TimerEvent: {}
+[13.054986] (-) TimerEvent: {}
+[13.155393] (-) TimerEvent: {}
+[13.255991] (-) TimerEvent: {}
+[13.356550] (-) TimerEvent: {}
+[13.457063] (-) TimerEvent: {}
+[13.557611] (-) TimerEvent: {}
+[13.658079] (-) TimerEvent: {}
+[13.758697] (-) TimerEvent: {}
+[13.859127] (-) TimerEvent: {}
+[13.959565] (-) TimerEvent: {}
+[14.060162] (-) TimerEvent: {}
+[14.160780] (-) TimerEvent: {}
+[14.261153] (-) TimerEvent: {}
+[14.361486] (-) TimerEvent: {}
+[14.462026] (-) TimerEvent: {}
+[14.562574] (-) TimerEvent: {}
+[14.663009] (-) TimerEvent: {}
+[14.694538] (mpc_lateral_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.763098] (-) TimerEvent: {}
+[14.863387] (-) TimerEvent: {}
+[14.963750] (-) TimerEvent: {}
+[15.064386] (-) TimerEvent: {}
+[15.165003] (-) TimerEvent: {}
+[15.265602] (-) TimerEvent: {}
+[15.366171] (-) TimerEvent: {}
+[15.466746] (-) TimerEvent: {}
+[15.567120] (-) TimerEvent: {}
+[15.667483] (-) TimerEvent: {}
+[15.768096] (-) TimerEvent: {}
+[15.868528] (-) TimerEvent: {}
+[15.968948] (-) TimerEvent: {}
+[16.069545] (-) TimerEvent: {}
+[16.170158] (-) TimerEvent: {}
+[16.270622] (-) TimerEvent: {}
+[16.371219] (-) TimerEvent: {}
+[16.471783] (-) TimerEvent: {}
+[16.572322] (-) TimerEvent: {}
+[16.672802] (-) TimerEvent: {}
+[16.773210] (-) TimerEvent: {}
+[16.873521] (-) TimerEvent: {}
+[16.973819] (-) TimerEvent: {}
+[17.074117] (-) TimerEvent: {}
+[17.174434] (-) TimerEvent: {}
+[17.274750] (-) TimerEvent: {}
+[17.375033] (-) TimerEvent: {}
+[17.475290] (-) TimerEvent: {}
+[17.575536] (-) TimerEvent: {}
+[17.675829] (-) TimerEvent: {}
+[17.776251] (-) TimerEvent: {}
+[17.876843] (-) TimerEvent: {}
+[17.977409] (-) TimerEvent: {}
+[18.078018] (-) TimerEvent: {}
+[18.178579] (-) TimerEvent: {}
+[18.279005] (-) TimerEvent: {}
+[18.379444] (-) TimerEvent: {}
+[18.479990] (-) TimerEvent: {}
+[18.580547] (-) TimerEvent: {}
+[18.680932] (-) TimerEvent: {}
+[18.781585] (-) TimerEvent: {}
+[18.881976] (-) TimerEvent: {}
+[18.982578] (-) TimerEvent: {}
+[19.082977] (-) TimerEvent: {}
+[19.183277] (-) TimerEvent: {}
+[19.283670] (-) TimerEvent: {}
+[19.384085] (-) TimerEvent: {}
+[19.484676] (-) TimerEvent: {}
+[19.585229] (-) TimerEvent: {}
+[19.685780] (-) TimerEvent: {}
+[19.786362] (-) TimerEvent: {}
+[19.886760] (-) TimerEvent: {}
+[19.987085] (-) TimerEvent: {}
+[20.087501] (-) TimerEvent: {}
+[20.187884] (-) TimerEvent: {}
+[20.288447] (-) TimerEvent: {}
+[20.388818] (-) TimerEvent: {}
+[20.489481] (-) TimerEvent: {}
+[20.590096] (-) TimerEvent: {}
+[20.690730] (-) TimerEvent: {}
+[20.791303] (-) TimerEvent: {}
+[20.891679] (-) TimerEvent: {}
+[20.992004] (-) TimerEvent: {}
+[21.092593] (-) TimerEvent: {}
+[21.193082] (-) TimerEvent: {}
+[21.293700] (-) TimerEvent: {}
+[21.394335] (-) TimerEvent: {}
+[21.494770] (-) TimerEvent: {}
+[21.595367] (-) TimerEvent: {}
+[21.695963] (-) TimerEvent: {}
+[21.796525] (-) TimerEvent: {}
+[21.896909] (-) TimerEvent: {}
+[21.997389] (-) TimerEvent: {}
+[22.097931] (-) TimerEvent: {}
+[22.198406] (-) TimerEvent: {}
+[22.298760] (-) TimerEvent: {}
+[22.399154] (-) TimerEvent: {}
+[22.499586] (-) TimerEvent: {}
+[22.600188] (-) TimerEvent: {}
+[22.700738] (-) TimerEvent: {}
+[22.801287] (-) TimerEvent: {}
+[22.901836] (-) TimerEvent: {}
+[23.002417] (-) TimerEvent: {}
+[23.103058] (-) TimerEvent: {}
+[23.203694] (-) TimerEvent: {}
+[23.304292] (-) TimerEvent: {}
+[23.404797] (-) TimerEvent: {}
+[23.505408] (-) TimerEvent: {}
+[23.605870] (-) TimerEvent: {}
+[23.706412] (-) TimerEvent: {}
+[23.806787] (-) TimerEvent: {}
+[23.907161] (-) TimerEvent: {}
+[24.007544] (-) TimerEvent: {}
+[24.108158] (-) TimerEvent: {}
+[24.208761] (-) TimerEvent: {}
+[24.309320] (-) TimerEvent: {}
+[24.409922] (-) TimerEvent: {}
+[24.510347] (-) TimerEvent: {}
+[24.610641] (-) TimerEvent: {}
+[24.711037] (-) TimerEvent: {}
+[24.811383] (-) TimerEvent: {}
+[24.911789] (-) TimerEvent: {}
+[25.012179] (-) TimerEvent: {}
+[25.112588] (-) TimerEvent: {}
+[25.213017] (-) TimerEvent: {}
+[25.313455] (-) TimerEvent: {}
+[25.413886] (-) TimerEvent: {}
+[25.514542] (-) TimerEvent: {}
+[25.615009] (-) TimerEvent: {}
+[25.715456] (-) TimerEvent: {}
+[25.816034] (-) TimerEvent: {}
+[25.916619] (-) TimerEvent: {}
+[26.017196] (-) TimerEvent: {}
+[26.117778] (-) TimerEvent: {}
+[26.218432] (-) TimerEvent: {}
+[26.318877] (-) TimerEvent: {}
+[26.419300] (-) TimerEvent: {}
+[26.519729] (-) TimerEvent: {}
+[26.620334] (-) TimerEvent: {}
+[26.720944] (-) TimerEvent: {}
+[26.821509] (-) TimerEvent: {}
+[26.922106] (-) TimerEvent: {}
+[27.022454] (-) TimerEvent: {}
+[27.122781] (-) TimerEvent: {}
+[27.223222] (-) TimerEvent: {}
+[27.323672] (-) TimerEvent: {}
+[27.424273] (-) TimerEvent: {}
+[27.524686] (-) TimerEvent: {}
+[27.625214] (-) TimerEvent: {}
+[27.725646] (-) TimerEvent: {}
+[27.826256] (-) TimerEvent: {}
+[27.926691] (-) TimerEvent: {}
+[28.027084] (-) TimerEvent: {}
+[28.127450] (-) TimerEvent: {}
+[28.228000] (-) TimerEvent: {}
+[28.328638] (-) TimerEvent: {}
+[28.429279] (-) TimerEvent: {}
+[28.529967] (-) TimerEvent: {}
+[28.630394] (-) TimerEvent: {}
+[28.730837] (-) TimerEvent: {}
+[28.831287] (-) TimerEvent: {}
+[28.931727] (-) TimerEvent: {}
+[29.032297] (-) TimerEvent: {}
+[29.132842] (-) TimerEvent: {}
+[29.233353] (-) TimerEvent: {}
+[29.333881] (-) TimerEvent: {}
+[29.434271] (-) TimerEvent: {}
+[29.534694] (-) TimerEvent: {}
+[29.635148] (-) TimerEvent: {}
+[29.735604] (-) TimerEvent: {}
+[29.836238] (-) TimerEvent: {}
+[29.936866] (-) TimerEvent: {}
+[30.037433] (-) TimerEvent: {}
+[30.137896] (-) TimerEvent: {}
+[30.238425] (-) TimerEvent: {}
+[30.338867] (-) TimerEvent: {}
+[30.439314] (-) TimerEvent: {}
+[30.539762] (-) TimerEvent: {}
+[30.640232] (-) TimerEvent: {}
+[30.740857] (-) TimerEvent: {}
+[30.841301] (-) TimerEvent: {}
+[30.941989] (-) TimerEvent: {}
+[31.042412] (-) TimerEvent: {}
+[31.142787] (-) TimerEvent: {}
+[31.243147] (-) TimerEvent: {}
+[31.343497] (-) TimerEvent: {}
+[31.444126] (-) TimerEvent: {}
+[31.544583] (-) TimerEvent: {}
+[31.645240] (-) TimerEvent: {}
+[31.745855] (-) TimerEvent: {}
+[31.846271] (-) TimerEvent: {}
+[31.946670] (-) TimerEvent: {}
+[32.047090] (-) TimerEvent: {}
+[32.147475] (-) TimerEvent: {}
+[32.247852] (-) TimerEvent: {}
+[32.348444] (-) TimerEvent: {}
+[32.448902] (-) TimerEvent: {}
+[32.549507] (-) TimerEvent: {}
+[32.650123] (-) TimerEvent: {}
+[32.750595] (-) TimerEvent: {}
+[32.851016] (-) TimerEvent: {}
+[32.951395] (-) TimerEvent: {}
+[33.052017] (-) TimerEvent: {}
+[33.152619] (-) TimerEvent: {}
+[33.253188] (-) TimerEvent: {}
+[33.353540] (-) TimerEvent: {}
+[33.454035] (-) TimerEvent: {}
+[33.554579] (-) TimerEvent: {}
+[33.654997] (-) TimerEvent: {}
+[33.755440] (-) TimerEvent: {}
+[33.856054] (-) TimerEvent: {}
+[33.956678] (-) TimerEvent: {}
+[34.057380] (-) TimerEvent: {}
+[34.158004] (-) TimerEvent: {}
+[34.258418] (-) TimerEvent: {}
+[34.358806] (-) TimerEvent: {}
+[34.459197] (-) TimerEvent: {}
+[34.559631] (-) TimerEvent: {}
+[34.660244] (-) TimerEvent: {}
+[34.760868] (-) TimerEvent: {}
+[34.861304] (-) TimerEvent: {}
+[34.961903] (-) TimerEvent: {}
+[35.062366] (-) TimerEvent: {}
+[35.162793] (-) TimerEvent: {}
+[35.263215] (-) TimerEvent: {}
+[35.363606] (-) TimerEvent: {}
+[35.464145] (-) TimerEvent: {}
+[35.564726] (-) TimerEvent: {}
+[35.665283] (-) TimerEvent: {}
+[35.765668] (-) TimerEvent: {}
+[35.866242] (-) TimerEvent: {}
+[35.966713] (-) TimerEvent: {}
+[36.067098] (-) TimerEvent: {}
+[36.167501] (-) TimerEvent: {}
+[36.268117] (-) TimerEvent: {}
+[36.368700] (-) TimerEvent: {}
+[36.469240] (-) TimerEvent: {}
+[36.569719] (-) TimerEvent: {}
+[36.670309] (-) TimerEvent: {}
+[36.770735] (-) TimerEvent: {}
+[36.871140] (-) TimerEvent: {}
+[36.971539] (-) TimerEvent: {}
+[37.072131] (-) TimerEvent: {}
+[37.172580] (-) TimerEvent: {}
+[37.273181] (-) TimerEvent: {}
+[37.373778] (-) TimerEvent: {}
+[37.474374] (-) TimerEvent: {}
+[37.574684] (-) TimerEvent: {}
+[37.675118] (-) TimerEvent: {}
+[37.775546] (-) TimerEvent: {}
+[37.876113] (-) TimerEvent: {}
+[37.976718] (-) TimerEvent: {}
+[38.077301] (-) TimerEvent: {}
+[38.177695] (-) TimerEvent: {}
+[38.278139] (-) TimerEvent: {}
+[38.378573] (-) TimerEvent: {}
+[38.478924] (-) TimerEvent: {}
+[38.579295] (-) TimerEvent: {}
+[38.679728] (-) TimerEvent: {}
+[38.780339] (-) TimerEvent: {}
+[38.880759] (-) TimerEvent: {}
+[38.981296] (-) TimerEvent: {}
+[39.081792] (-) TimerEvent: {}
+[39.182328] (-) TimerEvent: {}
+[39.282715] (-) TimerEvent: {}
+[39.382975] (-) TimerEvent: {}
+[39.483249] (-) TimerEvent: {}
+[39.583631] (-) TimerEvent: {}
+[39.684130] (-) TimerEvent: {}
+[39.784656] (-) TimerEvent: {}
+[39.885260] (-) TimerEvent: {}
+[39.985794] (-) TimerEvent: {}
+[40.086198] (-) TimerEvent: {}
+[40.186585] (-) TimerEvent: {}
+[40.287056] (-) TimerEvent: {}
+[40.387476] (-) TimerEvent: {}
+[40.488042] (-) TimerEvent: {}
+[40.588589] (-) TimerEvent: {}
+[40.688919] (-) TimerEvent: {}
+[40.789456] (-) TimerEvent: {}
+[40.890073] (-) TimerEvent: {}
+[40.990548] (-) TimerEvent: {}
+[41.091003] (-) TimerEvent: {}
+[41.191461] (-) TimerEvent: {}
+[41.292048] (-) TimerEvent: {}
+[41.392568] (-) TimerEvent: {}
+[41.493137] (-) TimerEvent: {}
+[41.593495] (-) TimerEvent: {}
+[41.694105] (-) TimerEvent: {}
+[41.794556] (-) TimerEvent: {}
+[41.894980] (-) TimerEvent: {}
+[41.995320] (-) TimerEvent: {}
+[42.095960] (-) TimerEvent: {}
+[42.196581] (-) TimerEvent: {}
+[42.297008] (-) TimerEvent: {}
+[42.397635] (-) TimerEvent: {}
+[42.498226] (-) TimerEvent: {}
+[42.598629] (-) TimerEvent: {}
+[42.698984] (-) TimerEvent: {}
+[42.799331] (-) TimerEvent: {}
+[42.899781] (-) TimerEvent: {}
+[43.000394] (-) TimerEvent: {}
+[43.100983] (-) TimerEvent: {}
+[43.201533] (-) TimerEvent: {}
+[43.302120] (-) TimerEvent: {}
+[43.402480] (-) TimerEvent: {}
+[43.502742] (-) TimerEvent: {}
+[43.602999] (-) TimerEvent: {}
+[43.703358] (-) TimerEvent: {}
+[43.803633] (-) TimerEvent: {}
+[43.904129] (-) TimerEvent: {}
+[44.004617] (-) TimerEvent: {}
+[44.105179] (-) TimerEvent: {}
+[44.205741] (-) TimerEvent: {}
+[44.306111] (-) TimerEvent: {}
+[44.406473] (-) TimerEvent: {}
+[44.506892] (-) TimerEvent: {}
+[44.607287] (-) TimerEvent: {}
+[44.707660] (-) TimerEvent: {}
+[44.808167] (-) TimerEvent: {}
+[44.908794] (-) TimerEvent: {}
+[45.009375] (-) TimerEvent: {}
+[45.109962] (-) TimerEvent: {}
+[45.210431] (-) TimerEvent: {}
+[45.310887] (-) TimerEvent: {}
+[45.411339] (-) TimerEvent: {}
+[45.511951] (-) TimerEvent: {}
+[45.612531] (-) TimerEvent: {}
+[45.712903] (-) TimerEvent: {}
+[45.813412] (-) TimerEvent: {}
+[45.913852] (-) TimerEvent: {}
+[46.014303] (-) TimerEvent: {}
+[46.114724] (-) TimerEvent: {}
+[46.215028] (-) TimerEvent: {}
+[46.315383] (-) TimerEvent: {}
+[46.415775] (-) TimerEvent: {}
+[46.516239] (-) TimerEvent: {}
+[46.616827] (-) TimerEvent: {}
+[46.717388] (-) TimerEvent: {}
+[46.817923] (-) TimerEvent: {}
+[46.918410] (-) TimerEvent: {}
+[47.018735] (-) TimerEvent: {}
+[47.119026] (-) TimerEvent: {}
+[47.219348] (-) TimerEvent: {}
+[47.319664] (-) TimerEvent: {}
+[47.420122] (-) TimerEvent: {}
+[47.520459] (-) TimerEvent: {}
+[47.621011] (-) TimerEvent: {}
+[47.721584] (-) TimerEvent: {}
+[47.822114] (-) TimerEvent: {}
+[47.922515] (-) TimerEvent: {}
+[48.022954] (-) TimerEvent: {}
+[48.123301] (-) TimerEvent: {}
+[48.223630] (-) TimerEvent: {}
+[48.324157] (-) TimerEvent: {}
+[48.424730] (-) TimerEvent: {}
+[48.525275] (-) TimerEvent: {}
+[48.625779] (-) TimerEvent: {}
+[48.726185] (-) TimerEvent: {}
+[48.826562] (-) TimerEvent: {}
+[48.926826] (-) TimerEvent: {}
+[49.027149] (-) TimerEvent: {}
+[49.127531] (-) TimerEvent: {}
+[49.228064] (-) TimerEvent: {}
+[49.328536] (-) TimerEvent: {}
+[49.429042] (-) TimerEvent: {}
+[49.529629] (-) TimerEvent: {}
+[49.630162] (-) TimerEvent: {}
+[49.730775] (-) TimerEvent: {}
+[49.831345] (-) TimerEvent: {}
+[49.931695] (-) TimerEvent: {}
+[50.032168] (-) TimerEvent: {}
+[50.132703] (-) TimerEvent: {}
+[50.233291] (-) TimerEvent: {}
+[50.333813] (-) TimerEvent: {}
+[50.434338] (-) TimerEvent: {}
+[50.534716] (-) TimerEvent: {}
+[50.635096] (-) TimerEvent: {}
+[50.735353] (-) TimerEvent: {}
+[50.835739] (-) TimerEvent: {}
+[50.936001] (-) TimerEvent: {}
+[51.036419] (-) TimerEvent: {}
+[51.136940] (-) TimerEvent: {}
+[51.237459] (-) TimerEvent: {}
+[51.337794] (-) TimerEvent: {}
+[51.438106] (-) TimerEvent: {}
+[51.538466] (-) TimerEvent: {}
+[51.638810] (-) TimerEvent: {}
+[51.739410] (-) TimerEvent: {}
+[51.839977] (-) TimerEvent: {}
+[51.940514] (-) TimerEvent: {}
+[52.040789] (-) TimerEvent: {}
+[52.141288] (-) TimerEvent: {}
+[52.241864] (-) TimerEvent: {}
+[52.342360] (-) TimerEvent: {}
+[52.442707] (-) TimerEvent: {}
+[52.543105] (-) TimerEvent: {}
+[52.643401] (-) TimerEvent: {}
+[52.743746] (-) TimerEvent: {}
+[52.844379] (-) TimerEvent: {}
+[52.944968] (-) TimerEvent: {}
+[53.045332] (-) TimerEvent: {}
+[53.145613] (-) TimerEvent: {}
+[53.246127] (-) TimerEvent: {}
+[53.346483] (-) TimerEvent: {}
+[53.446803] (-) TimerEvent: {}
+[53.547114] (-) TimerEvent: {}
+[53.647403] (-) TimerEvent: {}
+[53.747778] (-) TimerEvent: {}
+[53.848379] (-) TimerEvent: {}
+[53.948762] (-) TimerEvent: {}
+[54.049119] (-) TimerEvent: {}
+[54.149362] (-) TimerEvent: {}
+[54.249687] (-) TimerEvent: {}
+[54.350085] (-) TimerEvent: {}
+[54.450537] (-) TimerEvent: {}
+[54.550974] (-) TimerEvent: {}
+[54.651411] (-) TimerEvent: {}
+[54.751854] (-) TimerEvent: {}
+[54.852464] (-) TimerEvent: {}
+[54.953040] (-) TimerEvent: {}
+[55.053605] (-) TimerEvent: {}
+[55.154165] (-) TimerEvent: {}
+[55.254638] (-) TimerEvent: {}
+[55.355067] (-) TimerEvent: {}
+[55.455492] (-) TimerEvent: {}
+[55.555920] (-) TimerEvent: {}
+[55.656555] (-) TimerEvent: {}
+[55.756990] (-) TimerEvent: {}
+[55.857418] (-) TimerEvent: {}
+[55.957856] (-) TimerEvent: {}
+[56.058255] (-) TimerEvent: {}
+[56.158635] (-) TimerEvent: {}
+[56.259057] (-) TimerEvent: {}
+[56.359477] (-) TimerEvent: {}
+[56.460085] (-) TimerEvent: {}
+[56.560698] (-) TimerEvent: {}
+[56.661130] (-) TimerEvent: {}
+[56.761740] (-) TimerEvent: {}
+[56.862373] (-) TimerEvent: {}
+[56.962800] (-) TimerEvent: {}
+[57.063185] (-) TimerEvent: {}
+[57.163569] (-) TimerEvent: {}
+[57.264184] (-) TimerEvent: {}
+[57.364772] (-) TimerEvent: {}
+[57.465291] (-) TimerEvent: {}
+[57.565826] (-) TimerEvent: {}
+[57.666383] (-) TimerEvent: {}
+[57.766803] (-) TimerEvent: {}
+[57.867170] (-) TimerEvent: {}
+[57.967462] (-) TimerEvent: {}
+[58.067735] (-) TimerEvent: {}
+[58.168000] (-) TimerEvent: {}
+[58.268306] (-) TimerEvent: {}
+[58.368610] (-) TimerEvent: {}
+[58.468915] (-) TimerEvent: {}
+[58.569216] (-) TimerEvent: {}
+[58.669530] (-) TimerEvent: {}
+[58.769815] (-) TimerEvent: {}
+[58.870071] (-) TimerEvent: {}
+[58.970329] (-) TimerEvent: {}
+[59.070522] (-) TimerEvent: {}
+[59.170723] (-) TimerEvent: {}
+[59.270979] (-) TimerEvent: {}
+[59.371238] (-) TimerEvent: {}
+[59.397129] (mpc_lateral_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[59.405486] (mpc_lateral_controller) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[59.471379] (-) TimerEvent: {}
+[59.487038] (mpc_lateral_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[59.487890] (mpc_lateral_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/autoware_auto_control_msgs/include/autoware_auto_control_msgs;/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/mpc_lateral_controller/include\n'}
+[59.488086] (mpc_lateral_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[59.511660] (mpc_lateral_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[59.526087] (mpc_lateral_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[59.537592] (mpc_lateral_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[59.571499] (-) TimerEvent: {}
+[59.672113] (-) TimerEvent: {}
+[59.739986] (mpc_lateral_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[59.742540] (mpc_lateral_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller\n'}
+[59.758094] (mpc_lateral_controller) CommandEnded: {'returncode': 0}
+[59.759280] (mpc_lateral_controller) JobProgress: {'identifier': 'mpc_lateral_controller', 'progress': 'build'}
+[59.760680] (mpc_lateral_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller', '--', '-j8', '-l8'], 'cwd': '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eby'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eby/autoware/install/velodyne_pointcloud/lib:/home/eby/autoware/install/velodyne_driver/lib:/home/eby/autoware/install/velodyne_msgs/lib:/home/eby/autoware/install/vehicle_cmd_gate/lib:/home/eby/autoware/install/trajectory_follower_node/lib:/home/eby/autoware/install/pure_pursuit/lib:/home/eby/autoware/install/pid_longitudinal_controller/lib:/home/eby/autoware/install/mpc_lateral_controller/lib:/home/eby/autoware/install/trajectory_follower_base/lib:/home/eby/autoware/install/tier4_planning_rviz_plugin/lib:/home/eby/autoware/install/tier4_localization_rviz_plugin/lib:/home/eby/autoware/install/surround_obstacle_checker/lib:/home/eby/autoware/install/steer_offset_estimator/lib:/home/eby/autoware/install/static_centerline_optimizer/lib:/home/eby/autoware/install/simple_planning_simulator/lib:/home/eby/autoware/install/planning_validator/lib:/home/eby/autoware/install/operation_mode_transition_manager/lib:/home/eby/autoware/install/obstacle_velocity_limiter/lib:/home/eby/autoware/install/obstacle_stop_planner/lib:/home/eby/autoware/install/obstacle_cruise_planner/lib:/home/eby/autoware/install/obstacle_collision_checker/lib:/home/eby/autoware/install/obstacle_avoidance_planner/lib:/home/eby/autoware/install/behavior_velocity_planner/lib:/home/eby/autoware/install/motion_velocity_smoother/lib:/home/eby/autoware/install/mission_planner/lib:/home/eby/autoware/install/behavior_path_planner/lib:/home/eby/autoware/install/lane_departure_checker/lib:/home/eby/autoware/install/ground_segmentation/lib:/home/eby/autoware/install/control_performance_analysis/lib:/home/eby/autoware/install/freespace_planner/lib:/home/eby/autoware/install/freespace_planning_algorithms/lib:/home/eby/autoware/install/vehicle_info_util/lib:/home/eby/autoware/install/tvm_utility/lib:/home/eby/autoware/install/traffic_light_visualization/lib:/home/eby/autoware/install/traffic_light_ssd_fine_detector/lib:/home/eby/autoware/install/traffic_light_selector/lib:/home/eby/autoware/install/traffic_light_map_based_detector/lib:/home/eby/autoware/install/traffic_light_classifier/lib:/home/eby/autoware/install/component_state_monitor/lib:/home/eby/autoware/install/topic_state_monitor/lib:/home/eby/autoware/install/time_utils/lib:/home/eby/autoware/install/tier4_vehicle_rviz_plugin/lib:/home/eby/autoware/install/tier4_calibration_rviz_plugin/lib:/home/eby/autoware/install/external_cmd_selector/lib:/home/eby/autoware/install/autoware_iv_internal_api_adaptor/lib:/home/eby/autoware/install/autoware_iv_external_api_adaptor/lib:/home/eby/autoware/install/external_cmd_converter/lib:/home/eby/autoware/install/raw_vehicle_cmd_converter/lib:/home/eby/autoware/install/tier4_vehicle_msgs/lib:/home/eby/autoware/install/dummy_infrastructure/lib:/home/eby/autoware/install/tier4_v2x_msgs/lib:/home/eby/autoware/install/tier4_traffic_light_rviz_plugin/lib:/home/eby/autoware/install/tier4_api_msgs/lib:/home/eby/autoware/install/mrm_emergency_stop_operator/lib:/home/eby/autoware/install/mrm_comfortable_stop_operator/lib:/home/eby/autoware/install/default_ad_api/lib:/home/eby/autoware/install/tier4_system_msgs/lib:/home/eby/autoware/install/tier4_state_rviz_plugin/lib:/home/eby/autoware/install/fault_injection/lib:/home/eby/autoware/install/diagnostic_converter/lib:/home/eby/autoware/install/tier4_simulation_msgs/lib:/home/eby/autoware/install/tier4_simulated_clock_rviz_plugin/lib:/home/eby/autoware/install/tier4_screen_capture_rviz_plugin/lib:/home/eby/autoware/install/rtc_replayer/lib:/home/eby/autoware/install/rtc_manager_rviz_plugin/lib:/home/eby/autoware/install/rtc_interface/lib:/home/eby/autoware/install/rtc_auto_mode_manager/lib:/home/eby/autoware/install/tier4_rtc_msgs/lib:/home/eby/autoware/install/scenario_selector/lib:/home/eby/autoware/install/planning_debug_tools/lib:/home/eby/autoware/install/external_velocity_limit_selector/lib:/home/eby/autoware/install/costmap_generator/lib:/home/eby/autoware/install/tier4_planning_msgs/lib:/home/eby/autoware/install/tier4_perception_rviz_plugin/lib:/home/eby/autoware/install/tensorrt_yolox/lib:/home/eby/autoware/install/tensorrt_yolo/lib:/home/eby/autoware/install/detection_by_tracker/lib:/home/eby/autoware/install/shape_estimation/lib:/home/eby/autoware/install/object_merger/lib:/home/eby/autoware/install/multi_object_tracker/lib:/home/eby/autoware/install/lidar_apollo_instance_segmentation/lib:/home/eby/autoware/install/image_projection_based_fusion/lib:/home/eby/autoware/install/euclidean_cluster/lib:/home/eby/autoware/install/dummy_perception_publisher/lib:/home/eby/autoware/install/detected_object_validation/lib:/home/eby/autoware/install/detected_object_feature_remover/lib:/home/eby/autoware/install/tier4_perception_msgs/lib:/home/eby/autoware/install/occupancy_grid_map_outlier_filter/lib:/home/eby/autoware/install/compare_map_segmentation/lib:/home/eby/autoware/install/pointcloud_preprocessor/lib:/home/eby/autoware/install/tier4_pcl_extensions/lib:/home/eby/autoware/install/initial_pose_button_panel/lib:/home/eby/autoware/install/tier4_localization_msgs/lib:/home/eby/autoware/install/tier4_hmi_msgs/lib:/home/eby/autoware/install/tier4_control_rviz_plugin/lib:/home/eby/autoware/install/joy_controller/lib:/home/eby/autoware/install/system_monitor/lib:/home/eby/autoware/install/elevation_map_loader/lib:/home/eby/autoware/install/autoware_external_api_msgs/lib:/home/eby/autoware/install/tier4_external_api_msgs/lib:/home/eby/autoware/install/tier4_debug_tools/lib:/home/eby/autoware/install/tier4_debug_rviz_plugin/lib:/home/eby/autoware/install/route_handler/lib:/home/eby/autoware/install/radar_tracks_msgs_converter/lib:/home/eby/autoware/install/radar_static_pointcloud_filter/lib:/home/eby/autoware/install/radar_fusion_to_detected_object/lib:/home/eby/autoware/install/probabilistic_occupancy_grid_map/lib:/home/eby/autoware/install/planning_evaluator/lib:/home/eby/autoware/install/lidar_centerpoint/lib:/home/eby/autoware/install/heatmap_visualizer/lib:/home/eby/autoware/install/perception_utils/lib:/home/eby/autoware/install/path_distance_calculator/lib:/home/eby/autoware/install/map_based_prediction/lib:/home/eby/autoware/install/motion_utils/lib:/home/eby/autoware/install/map_loader/lib:/home/eby/autoware/install/localization_evaluator/lib:/home/eby/autoware/install/kinematic_evaluator/lib:/home/eby/autoware/install/interpolation/lib:/home/eby/autoware/install/imu_corrector/lib:/home/eby/autoware/install/image_diagnostics/lib:/home/eby/autoware/install/gyro_odometer/lib:/home/eby/autoware/install/grid_map_utils/lib:/home/eby/autoware/install/goal_distance_calculator/lib:/home/eby/autoware/install/front_vehicle_velocity_estimator/lib:/home/eby/autoware/install/ekf_localizer/lib:/home/eby/autoware/install/crosswalk_traffic_light_estimator/lib:/home/eby/autoware/install/tier4_autoware_utils/lib:/home/eby/autoware/install/gnss_poser/lib:/home/eby/autoware/install/tier4_debug_msgs/lib:/home/eby/autoware/install/tier4_datetime_rviz_plugin/lib:/home/eby/autoware/install/tier4_control_msgs/lib:/home/eby/autoware/install/tier4_automatic_goal_rviz_plugin/lib:/home/eby/autoware/install/tensorrt_common/lib:/home/eby/autoware/install/signal_processing/lib:/home/eby/autoware/install/shift_decider/lib:/home/eby/autoware/install/radar_threshold_filter/lib:/home/eby/autoware/install/radar_scan_to_pointcloud2/lib:/home/eby/autoware/install/polar_grid/lib:/home/eby/autoware/install/pointcloud_to_laserscan/lib:/home/eby/autoware/install/osqp_interface/lib:/home/eby/autoware/install/object_range_splitter/lib:/home/eby/autoware/install/ndt_omp/lib:/home/eby/autoware/install/mussp/lib:/home/eby/autoware/install/morai_msgs/lib:/home/eby/autoware/install/map_tf_generator/lib:/home/eby/autoware/install/map_height_fitter/lib:/home/eby/autoware/install/livox_tag_filter/lib:/home/eby/autoware/install/lanelet2_extension/lib:/home/eby/autoware/install/kalman_filter/lib:/home/eby/autoware/install/image_transport_decompressor/lib:/home/eby/autoware/install/geo_pos_conv/lib:/home/eby/autoware/install/fake_test_node/lib:/home/eby/autoware/install/bluetooth_monitor/lib:/home/eby/autoware/install/bag_time_manager_rviz_plugin/lib:/home/eby/autoware/install/autoware_utils/lib:/home/eby/autoware/install/autoware_sensing_msgs/lib:/home/eby/autoware/install/autoware_planning_msgs/lib:/home/eby/autoware/install/autoware_perception_msgs/lib:/home/eby/autoware/install/autoware_map_msgs/lib:/home/eby/autoware/install/autoware_localization_msgs/lib:/home/eby/autoware/install/autoware_control_msgs/lib:/home/eby/autoware/install/autoware_common_msgs/lib:/home/eby/autoware/install/autoware_auto_geometry/lib:/home/eby/autoware/install/autoware_auto_vehicle_msgs/lib:/home/eby/autoware/install/autoware_auto_system_msgs/lib:/home/eby/autoware/install/autoware_auto_planning_msgs/lib:/home/eby/autoware/install/autoware_auto_perception_rviz_plugin/lib:/home/eby/autoware/install/autoware_auto_perception_msgs/lib:/home/eby/autoware/install/autoware_auto_mapping_msgs/lib:/home/eby/autoware/install/autoware_auto_geometry_msgs/lib:/home/eby/autoware/install/autoware_auto_control_msgs/lib:/home/eby/autoware/install/autoware_adapi_version_msgs/lib:/home/eby/autoware/install/autoware_adapi_v1_msgs/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eby'), ('OLDPWD', '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/autoware_auto_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '54642'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/eby/autoware/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eby'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/eby/autoware/install/velodyne_description/share/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/eby/autoware/install/trtexec_vendor/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/eby/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/eby/.local/bin:/home/eby/.local/bin'), ('SESSION_MANAGER', 'local/eby-HP-Z4-G4-Workstation:@/tmp/.ICE-unix/1772,unix/eby-HP-Z4-G4-Workstation:/tmp/.ICE-unix/1772'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b5a9b27_6c3d_49b3_b16e_2476cc4c4790'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eby/autoware/install/vls_description:/home/eby/autoware/install/sample_sensor_kit_launch:/home/eby/autoware/install/awsim_sensor_kit_launch:/home/eby/autoware/install/common_sensor_launch:/home/eby/autoware/install/common_awsim_sensor_launch:/home/eby/autoware/install/velodyne_pointcloud:/home/eby/autoware/install/velodyne_driver:/home/eby/autoware/install/velodyne_msgs:/home/eby/autoware/install/velodyne_monitor:/home/eby/autoware/install/sample_sensor_kit_description:/home/eby/autoware/install/awsim_sensor_kit_description:/home/eby/autoware/install/velodyne_description:/home/eby/autoware/install/vehicle_velocity_converter:/home/eby/autoware/install/autoware_launch:/home/eby/autoware/install/tier4_control_launch:/home/eby/autoware/install/vehicle_cmd_gate:/home/eby/autoware/install/trajectory_follower_node:/home/eby/autoware/install/pure_pursuit:/home/eby/autoware/install/pid_longitudinal_controller:/home/eby/autoware/install/mpc_lateral_controller:/home/eby/autoware/install/trajectory_follower_base:/home/eby/autoware/install/tier4_simulator_launch:/home/eby/autoware/install/tier4_sensing_launch:/home/eby/autoware/install/tier4_planning_rviz_plugin:/home/eby/autoware/install/tier4_planning_launch:/home/eby/autoware/install/tier4_perception_launch:/home/eby/autoware/install/tier4_localization_rviz_plugin:/home/eby/autoware/install/surround_obstacle_checker:/home/eby/autoware/install/steer_offset_estimator:/home/eby/autoware/install/static_centerline_optimizer:/home/eby/autoware/install/simple_planning_simulator:/home/eby/autoware/install/planning_validator:/home/eby/autoware/install/pacmod_interface:/home/eby/autoware/install/operation_mode_transition_manager:/home/eby/autoware/install/obstacle_velocity_limiter:/home/eby/autoware/install/obstacle_stop_planner:/home/eby/autoware/install/obstacle_cruise_planner:/home/eby/autoware/install/obstacle_collision_checker:/home/eby/autoware/install/obstacle_avoidance_planner:/home/eby/autoware/install/behavior_velocity_planner:/home/eby/autoware/install/motion_velocity_smoother:/home/eby/autoware/install/mission_planner:/home/eby/autoware/install/behavior_path_planner:/home/eby/autoware/install/lane_departure_checker:/home/eby/autoware/install/ground_segmentation:/home/eby/autoware/install/control_performance_analysis:/home/eby/autoware/install/global_parameter_loader:/home/eby/autoware/install/freespace_planner:/home/eby/autoware/install/freespace_planning_algorithms:/home/eby/autoware/install/vehicle_info_util:/home/eby/autoware/install/twist2accel:/home/eby/autoware/install/lidar_centerpoint_tvm:/home/eby/autoware/install/lidar_apollo_segmentation_tvm_nodes:/home/eby/autoware/install/lidar_apollo_segmentation_tvm:/home/eby/autoware/install/tvm_utility:/home/eby/autoware/install/trtexec_vendor:/home/eby/autoware/install/traffic_light_visualization:/home/eby/autoware/install/traffic_light_ssd_fine_detector:/home/eby/autoware/install/traffic_light_selector:/home/eby/autoware/install/traffic_light_map_based_detector:/home/eby/autoware/install/traffic_light_classifier:/home/eby/autoware/install/tier4_system_launch:/home/eby/autoware/install/component_state_monitor:/home/eby/autoware/install/topic_state_monitor:/home/eby/autoware/install/time_utils:/home/eby/autoware/install/tier4_vehicle_rviz_plugin:/home/eby/autoware/install/tier4_calibration_rviz_plugin:/home/eby/autoware/install/tier4_autoware_api_launch:/home/eby/autoware/install/external_cmd_selector:/home/eby/autoware/install/awapi_awiv_adapter:/home/eby/autoware/install/autoware_iv_internal_api_adaptor:/home/eby/autoware/install/autoware_iv_external_api_adaptor:/home/eby/autoware/install/tier4_auto_msgs_converter:/home/eby/autoware/install/external_cmd_converter:/home/eby/autoware/install/accel_brake_map_calibrator:/home/eby/autoware/install/raw_vehicle_cmd_converter:/home/eby/autoware/install/tier4_vehicle_msgs:/home/eby/autoware/install/tier4_vehicle_launch:/home/eby/autoware/install/dummy_infrastructure:/home/eby/autoware/install/tier4_v2x_msgs:/home/eby/autoware/install/tier4_traffic_light_rviz_plugin:/home/eby/autoware/install/tier4_localization_launch:/home/eby/autoware/install/tier4_api_msgs:/home/eby/autoware/install/pose_initializer:/home/eby/autoware/install/mrm_emergency_stop_operator:/home/eby/autoware/install/mrm_comfortable_stop_operator:/home/eby/autoware/install/emergency_handler:/home/eby/autoware/install/default_ad_api:/home/eby/autoware/install/automatic_pose_initializer:/home/eby/autoware/install/ad_api_adaptors:/home/eby/autoware/install/component_interface_utils:/home/eby/autoware/install/component_interface_tools:/home/eby/autoware/install/tier4_system_msgs:/home/eby/autoware/install/tier4_state_rviz_plugin:/home/eby/autoware/install/fault_injection:/home/eby/autoware/install/diagnostic_converter:/home/eby/autoware/install/tier4_simulation_msgs:/home/eby/autoware/install/tier4_simulated_clock_rviz_plugin:/home/eby/autoware/install/tier4_screen_capture_rviz_plugin:/home/eby/autoware/install/rtc_replayer:/home/eby/autoware/install/rtc_manager_rviz_plugin:/home/eby/autoware/install/rtc_interface:/home/eby/autoware/install/rtc_auto_mode_manager:/home/eby/autoware/install/tier4_rtc_msgs:/home/eby/autoware/install/scenario_selector:/home/eby/autoware/install/planning_debug_tools:/home/eby/autoware/install/external_velocity_limit_selector:/home/eby/autoware/install/costmap_generator:/home/eby/autoware/install/tier4_planning_msgs:/home/eby/autoware/install/tier4_perception_rviz_plugin:/home/eby/autoware/install/tensorrt_yolox:/home/eby/autoware/install/tensorrt_yolo:/home/eby/autoware/install/detection_by_tracker:/home/eby/autoware/install/shape_estimation:/home/eby/autoware/install/object_merger:/home/eby/autoware/install/multi_object_tracker:/home/eby/autoware/install/lidar_apollo_instance_segmentation:/home/eby/autoware/install/image_projection_based_fusion:/home/eby/autoware/install/euclidean_cluster:/home/eby/autoware/install/dummy_perception_publisher:/home/eby/autoware/install/detected_object_validation:/home/eby/autoware/install/detected_object_feature_remover:/home/eby/autoware/install/tier4_perception_msgs:/home/eby/autoware/install/occupancy_grid_map_outlier_filter:/home/eby/autoware/install/compare_map_segmentation:/home/eby/autoware/install/pointcloud_preprocessor:/home/eby/autoware/install/tier4_pcl_extensions:/home/eby/autoware/install/tier4_map_launch:/home/eby/autoware/install/ndt_scan_matcher:/home/eby/autoware/install/initial_pose_button_panel:/home/eby/autoware/install/tier4_localization_msgs:/home/eby/autoware/install/tier4_hmi_msgs:/home/eby/autoware/install/tier4_control_rviz_plugin:/home/eby/autoware/install/joy_controller:/home/eby/autoware/install/tier4_api_utils:/home/eby/autoware/install/system_monitor:/home/eby/autoware/install/elevation_map_loader:/home/eby/autoware/install/autoware_external_api_msgs:/home/eby/autoware/install/tier4_external_api_msgs:/home/eby/autoware/install/tier4_debug_tools:/home/eby/autoware/install/tier4_debug_rviz_plugin:/home/eby/autoware/install/system_error_monitor:/home/eby/autoware/install/route_handler:/home/eby/autoware/install/radar_tracks_msgs_converter:/home/eby/autoware/install/radar_static_pointcloud_filter:/home/eby/autoware/install/radar_fusion_to_detected_object:/home/eby/autoware/install/probabilistic_occupancy_grid_map:/home/eby/autoware/install/planning_evaluator:/home/eby/autoware/install/lidar_centerpoint:/home/eby/autoware/install/heatmap_visualizer:/home/eby/autoware/install/perception_utils:/home/eby/autoware/install/path_distance_calculator:/home/eby/autoware/install/map_based_prediction:/home/eby/autoware/install/motion_utils:/home/eby/autoware/install/map_loader:/home/eby/autoware/install/localization_evaluator:/home/eby/autoware/install/kinematic_evaluator:/home/eby/autoware/install/interpolation:/home/eby/autoware/install/imu_corrector:/home/eby/autoware/install/image_diagnostics:/home/eby/autoware/install/gyro_odometer:/home/eby/autoware/install/grid_map_utils:/home/eby/autoware/install/goal_distance_calculator:/home/eby/autoware/install/front_vehicle_velocity_estimator:/home/eby/autoware/install/ekf_localizer:/home/eby/autoware/install/dummy_diag_publisher:/home/eby/autoware/install/crosswalk_traffic_light_estimator:/home/eby/autoware/install/tier4_autoware_utils:/home/eby/autoware/install/stop_filter:/home/eby/autoware/install/pose2twist:/home/eby/autoware/install/gnss_poser:/home/eby/autoware/install/tier4_debug_msgs:/home/eby/autoware/install/tier4_datetime_rviz_plugin:/home/eby/autoware/install/tier4_control_msgs:/home/eby/autoware/install/tier4_automatic_goal_rviz_plugin:/home/eby/autoware/install/tensorrt_common:/home/eby/autoware/install/tamagawa_imu_driver:/home/eby/autoware/install/simulator_compatibility_test:/home/eby/autoware/install/signal_processing:/home/eby/autoware/install/shift_decider:/home/eby/autoware/install/sample_vehicle_launch:/home/eby/autoware/install/sample_vehicle_description:/home/eby/autoware/install/radar_threshold_filter:/home/eby/autoware/install/radar_scan_to_pointcloud2:/home/eby/autoware/install/polar_grid:/home/eby/autoware/install/pointcloud_to_laserscan:/home/eby/autoware/install/pandar_description:/home/eby/autoware/install/osqp_interface:/home/eby/autoware/install/object_range_splitter:/home/eby/autoware/install/ndt_omp:/home/eby/autoware/install/mussp:/home/eby/autoware/install/morai_msgs:/home/eby/autoware/install/map_tf_generator:/home/eby/autoware/install/map_height_fitter:/home/eby/autoware/install/localization_error_monitor:/home/eby/autoware/install/livox_tag_filter:/home/eby/autoware/install/livox_description:/home/eby/autoware/install/lanelet2_map_preprocessor:/home/eby/autoware/install/lanelet2_extension:/home/eby/autoware/install/kalman_filter:/home/eby/autoware/install/individual_params:/home/eby/autoware/install/imu_description:/home/eby/autoware/install/image_transport_decompressor:/home/eby/autoware/install/geo_pos_conv:/home/eby/autoware/install/fake_test_node:/home/eby/autoware/install/cuda_utils:/home/eby/autoware/install/component_interface_specs:/home/eby/autoware/install/camera_description:/home/eby/autoware/install/bluetooth_monitor:/home/eby/autoware/install/bag_time_manager_rviz_plugin:/home/eby/autoware/install/autoware_utils:/home/eby/autoware/install/autoware_testing:/home/eby/autoware/install/autoware_sensing_msgs:/home/eby/autoware/install/autoware_point_types:/home/eby/autoware/install/autoware_planning_msgs:/home/eby/autoware/install/autoware_perception_msgs:/home/eby/autoware/install/autoware_map_msgs:/home/eby/autoware/install/autoware_localization_msgs:/home/eby/autoware/install/autoware_lint_common:/home/eby/autoware/install/autoware_control_msgs:/home/eby/autoware/install/autoware_common_msgs:/home/eby/autoware/install/autoware_cmake:/home/eby/autoware/install/autoware_auto_msgs:/home/eby/autoware/install/autoware_auto_geometry:/home/eby/autoware/install/autoware_auto_vehicle_msgs:/home/eby/autoware/install/autoware_auto_tf2:/home/eby/autoware/install/autoware_auto_system_msgs:/home/eby/autoware/install/autoware_auto_planning_msgs:/home/eby/autoware/install/autoware_auto_perception_rviz_plugin:/home/eby/autoware/install/autoware_auto_perception_msgs:/home/eby/autoware/install/autoware_auto_mapping_msgs:/home/eby/autoware/install/autoware_auto_geometry_msgs:/home/eby/autoware/install/autoware_auto_control_msgs:/home/eby/autoware/install/autoware_auto_common:/home/eby/autoware/install/autoware_adapi_version_msgs:/home/eby/autoware/install/ad_api_visualizers:/home/eby/autoware/install/autoware_adapi_v1_msgs:/home/eby/autoware/install/autoware_ad_api_specs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eby/autoware/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/static_centerline_optimizer/local/lib/python3.10/dist-packages:/home/eby/autoware/install/planning_validator/local/lib/python3.10/dist-packages:/home/eby/autoware/install/operation_mode_transition_manager/local/lib/python3.10/dist-packages:/home/eby/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_vehicle_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_simulation_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_localization_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_hmi_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_external_api_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_control_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/build/simulator_compatibility_test:/home/eby/autoware/install/simulator_compatibility_test/lib/python3.10/site-packages:/home/eby/autoware/install/morai_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_map_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_localization_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_control_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_system_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_adapi_version_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/build/ad_api_visualizers:/home/eby/autoware/install/ad_api_visualizers/lib/python3.10/site-packages:/home/eby/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eby/autoware/install/vls_description:/home/eby/autoware/install/sample_sensor_kit_launch:/home/eby/autoware/install/awsim_sensor_kit_launch:/home/eby/autoware/install/common_sensor_launch:/home/eby/autoware/install/common_awsim_sensor_launch:/home/eby/autoware/install/velodyne_pointcloud:/home/eby/autoware/install/velodyne_driver:/home/eby/autoware/install/velodyne_msgs:/home/eby/autoware/install/velodyne_monitor:/home/eby/autoware/install/sample_sensor_kit_description:/home/eby/autoware/install/awsim_sensor_kit_description:/home/eby/autoware/install/velodyne_description:/home/eby/autoware/install/vehicle_velocity_converter:/home/eby/autoware/install/autoware_launch:/home/eby/autoware/install/tier4_control_launch:/home/eby/autoware/install/vehicle_cmd_gate:/home/eby/autoware/install/trajectory_follower_node:/home/eby/autoware/install/pure_pursuit:/home/eby/autoware/install/pid_longitudinal_controller:/home/eby/autoware/install/mpc_lateral_controller:/home/eby/autoware/install/trajectory_follower_base:/home/eby/autoware/install/tier4_simulator_launch:/home/eby/autoware/install/tier4_sensing_launch:/home/eby/autoware/install/tier4_planning_rviz_plugin:/home/eby/autoware/install/tier4_planning_launch:/home/eby/autoware/install/tier4_perception_launch:/home/eby/autoware/install/tier4_localization_rviz_plugin:/home/eby/autoware/install/surround_obstacle_checker:/home/eby/autoware/install/steer_offset_estimator:/home/eby/autoware/install/static_centerline_optimizer:/home/eby/autoware/install/simple_planning_simulator:/home/eby/autoware/install/planning_validator:/home/eby/autoware/install/pacmod_interface:/home/eby/autoware/install/operation_mode_transition_manager:/home/eby/autoware/install/obstacle_velocity_limiter:/home/eby/autoware/install/obstacle_stop_planner:/home/eby/autoware/install/obstacle_cruise_planner:/home/eby/autoware/install/obstacle_collision_checker:/home/eby/autoware/install/obstacle_avoidance_planner:/home/eby/autoware/install/behavior_velocity_planner:/home/eby/autoware/install/motion_velocity_smoother:/home/eby/autoware/install/mission_planner:/home/eby/autoware/install/behavior_path_planner:/home/eby/autoware/install/lane_departure_checker:/home/eby/autoware/install/ground_segmentation:/home/eby/autoware/install/control_performance_analysis:/home/eby/autoware/install/global_parameter_loader:/home/eby/autoware/install/freespace_planner:/home/eby/autoware/install/freespace_planning_algorithms:/home/eby/autoware/install/vehicle_info_util:/home/eby/autoware/install/twist2accel:/home/eby/autoware/install/lidar_centerpoint_tvm:/home/eby/autoware/install/lidar_apollo_segmentation_tvm_nodes:/home/eby/autoware/install/lidar_apollo_segmentation_tvm:/home/eby/autoware/install/tvm_utility:/home/eby/autoware/install/trtexec_vendor:/home/eby/autoware/install/traffic_light_visualization:/home/eby/autoware/install/traffic_light_ssd_fine_detector:/home/eby/autoware/install/traffic_light_selector:/home/eby/autoware/install/traffic_light_map_based_detector:/home/eby/autoware/install/traffic_light_classifier:/home/eby/autoware/install/tier4_system_launch:/home/eby/autoware/install/component_state_monitor:/home/eby/autoware/install/topic_state_monitor:/home/eby/autoware/install/time_utils:/home/eby/autoware/install/tier4_vehicle_rviz_plugin:/home/eby/autoware/install/tier4_calibration_rviz_plugin:/home/eby/autoware/install/tier4_autoware_api_launch:/home/eby/autoware/install/external_cmd_selector:/home/eby/autoware/install/awapi_awiv_adapter:/home/eby/autoware/install/autoware_iv_internal_api_adaptor:/home/eby/autoware/install/autoware_iv_external_api_adaptor:/home/eby/autoware/install/tier4_auto_msgs_converter:/home/eby/autoware/install/external_cmd_converter:/home/eby/autoware/install/accel_brake_map_calibrator:/home/eby/autoware/install/raw_vehicle_cmd_converter:/home/eby/autoware/install/tier4_vehicle_msgs:/home/eby/autoware/install/tier4_vehicle_launch:/home/eby/autoware/install/dummy_infrastructure:/home/eby/autoware/install/tier4_v2x_msgs:/home/eby/autoware/install/tier4_traffic_light_rviz_plugin:/home/eby/autoware/install/tier4_localization_launch:/home/eby/autoware/install/tier4_api_msgs:/home/eby/autoware/install/pose_initializer:/home/eby/autoware/install/mrm_emergency_stop_operator:/home/eby/autoware/install/mrm_comfortable_stop_operator:/home/eby/autoware/install/emergency_handler:/home/eby/autoware/install/default_ad_api:/home/eby/autoware/install/automatic_pose_initializer:/home/eby/autoware/install/ad_api_adaptors:/home/eby/autoware/install/component_interface_utils:/home/eby/autoware/install/component_interface_tools:/home/eby/autoware/install/tier4_system_msgs:/home/eby/autoware/install/tier4_state_rviz_plugin:/home/eby/autoware/install/fault_injection:/home/eby/autoware/install/diagnostic_converter:/home/eby/autoware/install/tier4_simulation_msgs:/home/eby/autoware/install/tier4_simulated_clock_rviz_plugin:/home/eby/autoware/install/tier4_screen_capture_rviz_plugin:/home/eby/autoware/install/rtc_replayer:/home/eby/autoware/install/rtc_manager_rviz_plugin:/home/eby/autoware/install/rtc_interface:/home/eby/autoware/install/rtc_auto_mode_manager:/home/eby/autoware/install/tier4_rtc_msgs:/home/eby/autoware/install/scenario_selector:/home/eby/autoware/install/planning_debug_tools:/home/eby/autoware/install/external_velocity_limit_selector:/home/eby/autoware/install/costmap_generator:/home/eby/autoware/install/tier4_planning_msgs:/home/eby/autoware/install/tier4_perception_rviz_plugin:/home/eby/autoware/install/tensorrt_yolox:/home/eby/autoware/install/tensorrt_yolo:/home/eby/autoware/install/detection_by_tracker:/home/eby/autoware/install/shape_estimation:/home/eby/autoware/install/object_merger:/home/eby/autoware/install/multi_object_tracker:/home/eby/autoware/install/lidar_apollo_instance_segmentation:/home/eby/autoware/install/image_projection_based_fusion:/home/eby/autoware/install/euclidean_cluster:/home/eby/autoware/install/dummy_perception_publisher:/home/eby/autoware/install/detected_object_validation:/home/eby/autoware/install/detected_object_feature_remover:/home/eby/autoware/install/tier4_perception_msgs:/home/eby/autoware/install/occupancy_grid_map_outlier_filter:/home/eby/autoware/install/compare_map_segmentation:/home/eby/autoware/install/pointcloud_preprocessor:/home/eby/autoware/install/tier4_pcl_extensions:/home/eby/autoware/install/tier4_map_launch:/home/eby/autoware/install/ndt_scan_matcher:/home/eby/autoware/install/initial_pose_button_panel:/home/eby/autoware/install/tier4_localization_msgs:/home/eby/autoware/install/tier4_hmi_msgs:/home/eby/autoware/install/tier4_control_rviz_plugin:/home/eby/autoware/install/joy_controller:/home/eby/autoware/install/tier4_api_utils:/home/eby/autoware/install/system_monitor:/home/eby/autoware/install/elevation_map_loader:/home/eby/autoware/install/autoware_external_api_msgs:/home/eby/autoware/install/tier4_external_api_msgs:/home/eby/autoware/install/tier4_debug_tools:/home/eby/autoware/install/tier4_debug_rviz_plugin:/home/eby/autoware/install/system_error_monitor:/home/eby/autoware/install/route_handler:/home/eby/autoware/install/radar_tracks_msgs_converter:/home/eby/autoware/install/radar_static_pointcloud_filter:/home/eby/autoware/install/radar_fusion_to_detected_object:/home/eby/autoware/install/probabilistic_occupancy_grid_map:/home/eby/autoware/install/planning_evaluator:/home/eby/autoware/install/lidar_centerpoint:/home/eby/autoware/install/heatmap_visualizer:/home/eby/autoware/install/perception_utils:/home/eby/autoware/install/path_distance_calculator:/home/eby/autoware/install/map_based_prediction:/home/eby/autoware/install/motion_utils:/home/eby/autoware/install/map_loader:/home/eby/autoware/install/localization_evaluator:/home/eby/autoware/install/kinematic_evaluator:/home/eby/autoware/install/interpolation:/home/eby/autoware/install/imu_corrector:/home/eby/autoware/install/image_diagnostics:/home/eby/autoware/install/gyro_odometer:/home/eby/autoware/install/grid_map_utils:/home/eby/autoware/install/goal_distance_calculator:/home/eby/autoware/install/front_vehicle_velocity_estimator:/home/eby/autoware/install/ekf_localizer:/home/eby/autoware/install/dummy_diag_publisher:/home/eby/autoware/install/crosswalk_traffic_light_estimator:/home/eby/autoware/install/tier4_autoware_utils:/home/eby/autoware/install/stop_filter:/home/eby/autoware/install/pose2twist:/home/eby/autoware/install/gnss_poser:/home/eby/autoware/install/tier4_debug_msgs:/home/eby/autoware/install/tier4_datetime_rviz_plugin:/home/eby/autoware/install/tier4_control_msgs:/home/eby/autoware/install/tier4_automatic_goal_rviz_plugin:/home/eby/autoware/install/tensorrt_common:/home/eby/autoware/install/tamagawa_imu_driver:/home/eby/autoware/install/signal_processing:/home/eby/autoware/install/shift_decider:/home/eby/autoware/install/sample_vehicle_launch:/home/eby/autoware/install/sample_vehicle_description:/home/eby/autoware/install/radar_threshold_filter:/home/eby/autoware/install/radar_scan_to_pointcloud2:/home/eby/autoware/install/polar_grid:/home/eby/autoware/install/pointcloud_to_laserscan:/home/eby/autoware/install/pandar_description:/home/eby/autoware/install/osqp_interface:/home/eby/autoware/install/object_range_splitter:/home/eby/autoware/install/ndt_omp:/home/eby/autoware/install/mussp:/home/eby/autoware/install/morai_msgs:/home/eby/autoware/install/map_tf_generator:/home/eby/autoware/install/map_height_fitter:/home/eby/autoware/install/localization_error_monitor:/home/eby/autoware/install/livox_tag_filter:/home/eby/autoware/install/livox_description:/home/eby/autoware/install/lanelet2_map_preprocessor:/home/eby/autoware/install/lanelet2_extension:/home/eby/autoware/install/kalman_filter:/home/eby/autoware/install/individual_params:/home/eby/autoware/install/imu_description:/home/eby/autoware/install/image_transport_decompressor:/home/eby/autoware/install/geo_pos_conv:/home/eby/autoware/install/fake_test_node:/home/eby/autoware/install/cuda_utils:/home/eby/autoware/install/component_interface_specs:/home/eby/autoware/install/camera_description:/home/eby/autoware/install/bluetooth_monitor:/home/eby/autoware/install/bag_time_manager_rviz_plugin:/home/eby/autoware/install/autoware_utils:/home/eby/autoware/install/autoware_testing:/home/eby/autoware/install/autoware_sensing_msgs:/home/eby/autoware/install/autoware_point_types:/home/eby/autoware/install/autoware_planning_msgs:/home/eby/autoware/install/autoware_perception_msgs:/home/eby/autoware/install/autoware_map_msgs:/home/eby/autoware/install/autoware_localization_msgs:/home/eby/autoware/install/autoware_lint_common:/home/eby/autoware/install/autoware_control_msgs:/home/eby/autoware/install/autoware_common_msgs:/home/eby/autoware/install/autoware_cmake:/home/eby/autoware/install/autoware_auto_msgs:/home/eby/autoware/install/autoware_auto_geometry:/home/eby/autoware/install/autoware_auto_vehicle_msgs:/home/eby/autoware/install/autoware_auto_tf2:/home/eby/autoware/install/autoware_auto_system_msgs:/home/eby/autoware/install/autoware_auto_planning_msgs:/home/eby/autoware/install/autoware_auto_perception_rviz_plugin:/home/eby/autoware/install/autoware_auto_perception_msgs:/home/eby/autoware/install/autoware_auto_mapping_msgs:/home/eby/autoware/install/autoware_auto_geometry_msgs:/home/eby/autoware/install/autoware_auto_control_msgs:/home/eby/autoware/install/autoware_auto_common:/home/eby/autoware/install/autoware_adapi_version_msgs:/home/eby/autoware/install/autoware_adapi_v1_msgs:/home/eby/autoware/install/autoware_ad_api_specs:/home/eby/autoware/install/simulator_compatibility_test:/home/eby/autoware/install/ad_api_visualizers:/opt/ros/humble')]), 'shell': False}
+[59.772379] (-) TimerEvent: {}
+[59.872869] (-) TimerEvent: {}
+[59.973170] (-) TimerEvent: {}
+[60.016222] (mpc_lateral_controller) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[60.019833] (mpc_lateral_controller) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[60.020563] (mpc_lateral_controller) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/steering_offset_lib.dir/src/steering_offset/steering_offset.cpp.o\x1b[0m\n'}
+[60.073261] (-) TimerEvent: {}
+[60.173579] (-) TimerEvent: {}
+[60.274207] (-) TimerEvent: {}
+[60.374714] (-) TimerEvent: {}
+[60.475189] (-) TimerEvent: {}
+[60.575644] (-) TimerEvent: {}
+[60.676129] (-) TimerEvent: {}
+[60.776476] (-) TimerEvent: {}
+[60.874643] (mpc_lateral_controller) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking CXX shared library libsteering_offset_lib.so\x1b[0m\n'}
+[60.876576] (-) TimerEvent: {}
+[60.977018] (-) TimerEvent: {}
+[60.981654] (mpc_lateral_controller) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[61.077117] (-) TimerEvent: {}
+[61.151555] (mpc_lateral_controller) StdoutLine: {'line': b'[ 21%] Built target gtest_main\n'}
+[61.177239] (-) TimerEvent: {}
+[61.277619] (-) TimerEvent: {}
+[61.378173] (-) TimerEvent: {}
+[61.478737] (-) TimerEvent: {}
+[61.579181] (-) TimerEvent: {}
+[61.679643] (-) TimerEvent: {}
+[61.780325] (-) TimerEvent: {}
+[61.880950] (-) TimerEvent: {}
+[61.981499] (-) TimerEvent: {}
+[62.082087] (-) TimerEvent: {}
+[62.182568] (-) TimerEvent: {}
+[62.283003] (-) TimerEvent: {}
+[62.383354] (-) TimerEvent: {}
+[62.483929] (-) TimerEvent: {}
+[62.584458] (-) TimerEvent: {}
+[62.685079] (-) TimerEvent: {}
+[62.785540] (-) TimerEvent: {}
+[62.886192] (-) TimerEvent: {}
+[62.986690] (-) TimerEvent: {}
+[63.087158] (-) TimerEvent: {}
+[63.122149] (mpc_lateral_controller) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[63.187246] (-) TimerEvent: {}
+[63.287516] (-) TimerEvent: {}
+[63.315883] (mpc_lateral_controller) StdoutLine: {'line': b'[ 26%] Built target gtest\n'}
+[63.387658] (-) TimerEvent: {}
+[63.488281] (-) TimerEvent: {}
+[63.588879] (-) TimerEvent: {}
+[63.689480] (-) TimerEvent: {}
+[63.790085] (-) TimerEvent: {}
+[63.890543] (-) TimerEvent: {}
+[63.990988] (-) TimerEvent: {}
+[64.091441] (-) TimerEvent: {}
+[64.192032] (-) TimerEvent: {}
+[64.292595] (-) TimerEvent: {}
+[64.393118] (-) TimerEvent: {}
+[64.493440] (-) TimerEvent: {}
+[64.593943] (-) TimerEvent: {}
+[64.595769] (mpc_lateral_controller) StdoutLine: {'line': b'[ 26%] Built target steering_offset_lib\n'}
+[64.694058] (-) TimerEvent: {}
+[64.747698] (mpc_lateral_controller) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/qp_solver/qp_solver_unconstraint_fast.cpp.o\x1b[0m\n'}
+[64.747956] (mpc_lateral_controller) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/lowpass_filter.cpp.o\x1b[0m\n'}
+[64.748202] (mpc_lateral_controller) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/mpc.cpp.o\x1b[0m\n'}
+[64.750460] (mpc_lateral_controller) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/mpc_utils.cpp.o\x1b[0m\n'}
+[64.750704] (mpc_lateral_controller) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/mpc_lateral_controller.cpp.o\x1b[0m\n'}
+[64.751705] (mpc_lateral_controller) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/steering_predictor.cpp.o\x1b[0m\n'}
+[64.752702] (mpc_lateral_controller) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/mpc_trajectory.cpp.o\x1b[0m\n'}
+[64.757101] (mpc_lateral_controller) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/qp_solver/qp_solver_osqp.cpp.o\x1b[0m\n'}
+[64.794176] (-) TimerEvent: {}
+[64.894583] (-) TimerEvent: {}
+[64.994959] (-) TimerEvent: {}
+[65.095283] (-) TimerEvent: {}
+[65.195619] (-) TimerEvent: {}
+[65.296007] (-) TimerEvent: {}
+[65.396397] (-) TimerEvent: {}
+[65.496788] (-) TimerEvent: {}
+[65.597131] (-) TimerEvent: {}
+[65.697474] (-) TimerEvent: {}
+[65.797820] (-) TimerEvent: {}
+[65.898165] (-) TimerEvent: {}
+[65.959634] (mpc_lateral_controller) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/vehicle_model/vehicle_model_bicycle_dynamics.cpp.o\x1b[0m\n'}
+[65.998274] (-) TimerEvent: {}
+[66.098698] (-) TimerEvent: {}
+[66.199039] (-) TimerEvent: {}
+[66.299424] (-) TimerEvent: {}
+[66.399778] (-) TimerEvent: {}
+[66.500168] (-) TimerEvent: {}
+[66.600513] (-) TimerEvent: {}
+[66.700869] (-) TimerEvent: {}
+[66.801225] (-) TimerEvent: {}
+[66.901578] (-) TimerEvent: {}
+[67.001931] (-) TimerEvent: {}
+[67.102318] (-) TimerEvent: {}
+[67.202670] (-) TimerEvent: {}
+[67.303059] (-) TimerEvent: {}
+[67.403414] (-) TimerEvent: {}
+[67.503760] (-) TimerEvent: {}
+[67.604110] (-) TimerEvent: {}
+[67.704451] (-) TimerEvent: {}
+[67.804802] (-) TimerEvent: {}
+[67.905156] (-) TimerEvent: {}
+[68.005508] (-) TimerEvent: {}
+[68.105869] (-) TimerEvent: {}
+[68.206232] (-) TimerEvent: {}
+[68.306594] (-) TimerEvent: {}
+[68.406944] (-) TimerEvent: {}
+[68.507299] (-) TimerEvent: {}
+[68.607686] (-) TimerEvent: {}
+[68.708044] (-) TimerEvent: {}
+[68.808403] (-) TimerEvent: {}
+[68.908741] (-) TimerEvent: {}
+[69.009093] (-) TimerEvent: {}
+[69.109440] (-) TimerEvent: {}
+[69.209919] (-) TimerEvent: {}
+[69.310372] (-) TimerEvent: {}
+[69.430387] (-) TimerEvent: {}
+[69.530760] (-) TimerEvent: {}
+[69.631136] (-) TimerEvent: {}
+[69.731506] (-) TimerEvent: {}
+[69.831859] (-) TimerEvent: {}
+[69.932213] (-) TimerEvent: {}
+[70.032563] (-) TimerEvent: {}
+[70.132903] (-) TimerEvent: {}
+[70.233253] (-) TimerEvent: {}
+[70.333621] (-) TimerEvent: {}
+[70.381726] (mpc_lateral_controller) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/vehicle_model/vehicle_model_bicycle_kinematics_no_delay.cpp.o\x1b[0m\n'}
+[70.433744] (-) TimerEvent: {}
+[70.534122] (-) TimerEvent: {}
+[70.634509] (-) TimerEvent: {}
+[70.734865] (-) TimerEvent: {}
+[70.835218] (-) TimerEvent: {}
+[70.935588] (-) TimerEvent: {}
+[70.993834] (mpc_lateral_controller) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/vehicle_model/vehicle_model_bicycle_kinematics.cpp.o\x1b[0m\n'}
+[71.035703] (-) TimerEvent: {}
+[71.136056] (-) TimerEvent: {}
+[71.236392] (-) TimerEvent: {}
+[71.279417] (mpc_lateral_controller) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/mpc_lateral_controller_lib.dir/src/vehicle_model/vehicle_model_interface.cpp.o\x1b[0m\n'}
+[71.336509] (-) TimerEvent: {}
+[71.436844] (-) TimerEvent: {}
+[71.537184] (-) TimerEvent: {}
+[71.637526] (-) TimerEvent: {}
+[71.737868] (-) TimerEvent: {}
+[71.838218] (-) TimerEvent: {}
+[71.938606] (-) TimerEvent: {}
+[72.038957] (-) TimerEvent: {}
+[72.139340] (-) TimerEvent: {}
+[72.239685] (-) TimerEvent: {}
+[72.340047] (-) TimerEvent: {}
+[72.440403] (-) TimerEvent: {}
+[72.540784] (-) TimerEvent: {}
+[72.641159] (-) TimerEvent: {}
+[72.741544] (-) TimerEvent: {}
+[72.841923] (-) TimerEvent: {}
+[72.942413] (-) TimerEvent: {}
+[73.042871] (-) TimerEvent: {}
+[73.143235] (-) TimerEvent: {}
+[73.243588] (-) TimerEvent: {}
+[73.343935] (-) TimerEvent: {}
+[73.444285] (-) TimerEvent: {}
+[73.544635] (-) TimerEvent: {}
+[73.644993] (-) TimerEvent: {}
+[73.745347] (-) TimerEvent: {}
+[73.845688] (-) TimerEvent: {}
+[73.946035] (-) TimerEvent: {}
+[74.046368] (-) TimerEvent: {}
+[74.146706] (-) TimerEvent: {}
+[74.247039] (-) TimerEvent: {}
+[74.347382] (-) TimerEvent: {}
+[74.447719] (-) TimerEvent: {}
+[74.548174] (-) TimerEvent: {}
+[74.648642] (-) TimerEvent: {}
+[74.748995] (-) TimerEvent: {}
+[74.849352] (-) TimerEvent: {}
+[74.949727] (-) TimerEvent: {}
+[75.050105] (-) TimerEvent: {}
+[75.150471] (-) TimerEvent: {}
+[75.250844] (-) TimerEvent: {}
+[75.351218] (-) TimerEvent: {}
+[75.451588] (-) TimerEvent: {}
+[75.551967] (-) TimerEvent: {}
+[75.652477] (-) TimerEvent: {}
+[75.754403] (-) TimerEvent: {}
+[75.854897] (-) TimerEvent: {}
+[75.955393] (-) TimerEvent: {}
+[76.055870] (-) TimerEvent: {}
+[76.156224] (-) TimerEvent: {}
+[76.256584] (-) TimerEvent: {}
+[76.356939] (-) TimerEvent: {}
+[76.457280] (-) TimerEvent: {}
+[76.557634] (-) TimerEvent: {}
+[76.657975] (-) TimerEvent: {}
+[76.758330] (-) TimerEvent: {}
+[76.862392] (-) TimerEvent: {}
+[76.962767] (-) TimerEvent: {}
+[77.063250] (-) TimerEvent: {}
+[77.163603] (-) TimerEvent: {}
+[77.263959] (-) TimerEvent: {}
+[77.364455] (-) TimerEvent: {}
+[77.464926] (-) TimerEvent: {}
+[77.565406] (-) TimerEvent: {}
+[77.665873] (-) TimerEvent: {}
+[77.766476] (-) TimerEvent: {}
+[77.866962] (-) TimerEvent: {}
+[77.967452] (-) TimerEvent: {}
+[78.067813] (-) TimerEvent: {}
+[78.168158] (-) TimerEvent: {}
+[78.268511] (-) TimerEvent: {}
+[78.369033] (-) TimerEvent: {}
+[78.469417] (-) TimerEvent: {}
+[78.569773] (-) TimerEvent: {}
+[78.670115] (-) TimerEvent: {}
+[78.770469] (-) TimerEvent: {}
+[78.870802] (-) TimerEvent: {}
+[78.971192] (-) TimerEvent: {}
+[79.071540] (-) TimerEvent: {}
+[79.171904] (-) TimerEvent: {}
+[79.272246] (-) TimerEvent: {}
+[79.372582] (-) TimerEvent: {}
+[79.472918] (-) TimerEvent: {}
+[79.573264] (-) TimerEvent: {}
+[79.673604] (-) TimerEvent: {}
+[79.773928] (-) TimerEvent: {}
+[79.874279] (-) TimerEvent: {}
+[79.974632] (-) TimerEvent: {}
+[80.074971] (-) TimerEvent: {}
+[80.175311] (-) TimerEvent: {}
+[80.275655] (-) TimerEvent: {}
+[80.375984] (-) TimerEvent: {}
+[80.476319] (-) TimerEvent: {}
+[80.576659] (-) TimerEvent: {}
+[80.677003] (-) TimerEvent: {}
+[80.777344] (-) TimerEvent: {}
+[80.877677] (-) TimerEvent: {}
+[80.978026] (-) TimerEvent: {}
+[81.078369] (-) TimerEvent: {}
+[81.178721] (-) TimerEvent: {}
+[81.279060] (-) TimerEvent: {}
+[81.379393] (-) TimerEvent: {}
+[81.479750] (-) TimerEvent: {}
+[81.580062] (-) TimerEvent: {}
+[81.680411] (-) TimerEvent: {}
+[81.780908] (-) TimerEvent: {}
+[81.881329] (-) TimerEvent: {}
+[81.981610] (-) TimerEvent: {}
+[82.081818] (-) TimerEvent: {}
+[82.182110] (-) TimerEvent: {}
+[82.282537] (-) TimerEvent: {}
+[82.382842] (-) TimerEvent: {}
+[82.483431] (-) TimerEvent: {}
+[82.583862] (-) TimerEvent: {}
+[82.684298] (-) TimerEvent: {}
+[82.784912] (-) TimerEvent: {}
+[82.885551] (-) TimerEvent: {}
+[82.986190] (-) TimerEvent: {}
+[83.038563] (mpc_lateral_controller) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libmpc_lateral_controller_lib.so\x1b[0m\n'}
+[83.086400] (-) TimerEvent: {}
+[83.186682] (-) TimerEvent: {}
+[83.287056] (-) TimerEvent: {}
+[83.387414] (-) TimerEvent: {}
+[83.487800] (-) TimerEvent: {}
+[83.588192] (-) TimerEvent: {}
+[83.688550] (-) TimerEvent: {}
+[83.788905] (-) TimerEvent: {}
+[83.889267] (-) TimerEvent: {}
+[83.989639] (-) TimerEvent: {}
+[84.089981] (-) TimerEvent: {}
+[84.190318] (-) TimerEvent: {}
+[84.290641] (-) TimerEvent: {}
+[84.390964] (-) TimerEvent: {}
+[84.491295] (-) TimerEvent: {}
+[84.591654] (-) TimerEvent: {}
+[84.627879] (mpc_lateral_controller) StdoutLine: {'line': b'[ 82%] Built target mpc_lateral_controller_lib\n'}
+[84.691770] (-) TimerEvent: {}
+[84.746767] (mpc_lateral_controller) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/test_lateral_controller.dir/test/test_mpc.cpp.o\x1b[0m\n'}
+[84.749640] (mpc_lateral_controller) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/test_lateral_controller.dir/test/test_lowpass_filter.cpp.o\x1b[0m\n'}
+[84.749851] (mpc_lateral_controller) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/test_lateral_controller.dir/test/test_mpc_utils.cpp.o\x1b[0m\n'}
+[84.791885] (-) TimerEvent: {}
+[84.892256] (-) TimerEvent: {}
+[84.992535] (-) TimerEvent: {}
+[85.092734] (-) TimerEvent: {}
+[85.192980] (-) TimerEvent: {}
+[85.293525] (-) TimerEvent: {}
+[85.394040] (-) TimerEvent: {}
+[85.494503] (-) TimerEvent: {}
+[85.594945] (-) TimerEvent: {}
+[85.695373] (-) TimerEvent: {}
+[85.795816] (-) TimerEvent: {}
+[85.896445] (-) TimerEvent: {}
+[85.997086] (-) TimerEvent: {}
+[86.097552] (-) TimerEvent: {}
+[86.198039] (-) TimerEvent: {}
+[86.298354] (-) TimerEvent: {}
+[86.398768] (-) TimerEvent: {}
+[86.499172] (-) TimerEvent: {}
+[86.599498] (-) TimerEvent: {}
+[86.700143] (-) TimerEvent: {}
+[86.800745] (-) TimerEvent: {}
+[86.901382] (-) TimerEvent: {}
+[87.001985] (-) TimerEvent: {}
+[87.102481] (-) TimerEvent: {}
+[87.202943] (-) TimerEvent: {}
+[87.303358] (-) TimerEvent: {}
+[87.403990] (-) TimerEvent: {}
+[87.504594] (-) TimerEvent: {}
+[87.604949] (-) TimerEvent: {}
+[87.705310] (-) TimerEvent: {}
+[87.805691] (-) TimerEvent: {}
+[87.906065] (-) TimerEvent: {}
+[88.006370] (-) TimerEvent: {}
+[88.106737] (-) TimerEvent: {}
+[88.207087] (-) TimerEvent: {}
+[88.307430] (-) TimerEvent: {}
+[88.407797] (-) TimerEvent: {}
+[88.508150] (-) TimerEvent: {}
+[88.608509] (-) TimerEvent: {}
+[88.708866] (-) TimerEvent: {}
+[88.809222] (-) TimerEvent: {}
+[88.909572] (-) TimerEvent: {}
+[89.009917] (-) TimerEvent: {}
+[89.110266] (-) TimerEvent: {}
+[89.210625] (-) TimerEvent: {}
+[89.310977] (-) TimerEvent: {}
+[89.411326] (-) TimerEvent: {}
+[89.511668] (-) TimerEvent: {}
+[89.612009] (-) TimerEvent: {}
+[89.712335] (-) TimerEvent: {}
+[89.812690] (-) TimerEvent: {}
+[89.913034] (-) TimerEvent: {}
+[90.013368] (-) TimerEvent: {}
+[90.113738] (-) TimerEvent: {}
+[90.214366] (-) TimerEvent: {}
+[90.314854] (-) TimerEvent: {}
+[90.415307] (-) TimerEvent: {}
+[90.515691] (-) TimerEvent: {}
+[90.616124] (-) TimerEvent: {}
+[90.716689] (-) TimerEvent: {}
+[90.817197] (-) TimerEvent: {}
+[90.917607] (-) TimerEvent: {}
+[91.018259] (-) TimerEvent: {}
+[91.118748] (-) TimerEvent: {}
+[91.219196] (-) TimerEvent: {}
+[91.319549] (-) TimerEvent: {}
+[91.419896] (-) TimerEvent: {}
+[91.520272] (-) TimerEvent: {}
+[91.620899] (-) TimerEvent: {}
+[91.721485] (-) TimerEvent: {}
+[91.822047] (-) TimerEvent: {}
+[91.922611] (-) TimerEvent: {}
+[92.023067] (-) TimerEvent: {}
+[92.123511] (-) TimerEvent: {}
+[92.214871] (mpc_lateral_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_lateral_controller\x1b[0m\n'}
+[92.223598] (-) TimerEvent: {}
+[92.324002] (-) TimerEvent: {}
+[92.424377] (-) TimerEvent: {}
+[92.524745] (-) TimerEvent: {}
+[92.625121] (-) TimerEvent: {}
+[92.725473] (-) TimerEvent: {}
+[92.825847] (-) TimerEvent: {}
+[92.926206] (-) TimerEvent: {}
+[93.026591] (-) TimerEvent: {}
+[93.100402] (mpc_lateral_controller) StdoutLine: {'line': b'[100%] Built target test_lateral_controller\n'}
+[93.126679] (-) TimerEvent: {}
+[93.139969] (mpc_lateral_controller) CommandEnded: {'returncode': 0}
+[93.226770] (-) TimerEvent: {}
+[93.327038] (-) TimerEvent: {}
+[93.427365] (-) TimerEvent: {}
+[93.527664] (-) TimerEvent: {}
+[93.628262] (-) TimerEvent: {}
+[93.728808] (-) TimerEvent: {}
+[93.829293] (-) TimerEvent: {}
+[93.915446] (mpc_lateral_controller) JobProgress: {'identifier': 'mpc_lateral_controller', 'progress': 'install'}
+[93.929435] (-) TimerEvent: {}
+[93.950215] (mpc_lateral_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller'], 'cwd': '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eby'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eby/autoware/install/velodyne_pointcloud/lib:/home/eby/autoware/install/velodyne_driver/lib:/home/eby/autoware/install/velodyne_msgs/lib:/home/eby/autoware/install/vehicle_cmd_gate/lib:/home/eby/autoware/install/trajectory_follower_node/lib:/home/eby/autoware/install/pure_pursuit/lib:/home/eby/autoware/install/pid_longitudinal_controller/lib:/home/eby/autoware/install/mpc_lateral_controller/lib:/home/eby/autoware/install/trajectory_follower_base/lib:/home/eby/autoware/install/tier4_planning_rviz_plugin/lib:/home/eby/autoware/install/tier4_localization_rviz_plugin/lib:/home/eby/autoware/install/surround_obstacle_checker/lib:/home/eby/autoware/install/steer_offset_estimator/lib:/home/eby/autoware/install/static_centerline_optimizer/lib:/home/eby/autoware/install/simple_planning_simulator/lib:/home/eby/autoware/install/planning_validator/lib:/home/eby/autoware/install/operation_mode_transition_manager/lib:/home/eby/autoware/install/obstacle_velocity_limiter/lib:/home/eby/autoware/install/obstacle_stop_planner/lib:/home/eby/autoware/install/obstacle_cruise_planner/lib:/home/eby/autoware/install/obstacle_collision_checker/lib:/home/eby/autoware/install/obstacle_avoidance_planner/lib:/home/eby/autoware/install/behavior_velocity_planner/lib:/home/eby/autoware/install/motion_velocity_smoother/lib:/home/eby/autoware/install/mission_planner/lib:/home/eby/autoware/install/behavior_path_planner/lib:/home/eby/autoware/install/lane_departure_checker/lib:/home/eby/autoware/install/ground_segmentation/lib:/home/eby/autoware/install/control_performance_analysis/lib:/home/eby/autoware/install/freespace_planner/lib:/home/eby/autoware/install/freespace_planning_algorithms/lib:/home/eby/autoware/install/vehicle_info_util/lib:/home/eby/autoware/install/tvm_utility/lib:/home/eby/autoware/install/traffic_light_visualization/lib:/home/eby/autoware/install/traffic_light_ssd_fine_detector/lib:/home/eby/autoware/install/traffic_light_selector/lib:/home/eby/autoware/install/traffic_light_map_based_detector/lib:/home/eby/autoware/install/traffic_light_classifier/lib:/home/eby/autoware/install/component_state_monitor/lib:/home/eby/autoware/install/topic_state_monitor/lib:/home/eby/autoware/install/time_utils/lib:/home/eby/autoware/install/tier4_vehicle_rviz_plugin/lib:/home/eby/autoware/install/tier4_calibration_rviz_plugin/lib:/home/eby/autoware/install/external_cmd_selector/lib:/home/eby/autoware/install/autoware_iv_internal_api_adaptor/lib:/home/eby/autoware/install/autoware_iv_external_api_adaptor/lib:/home/eby/autoware/install/external_cmd_converter/lib:/home/eby/autoware/install/raw_vehicle_cmd_converter/lib:/home/eby/autoware/install/tier4_vehicle_msgs/lib:/home/eby/autoware/install/dummy_infrastructure/lib:/home/eby/autoware/install/tier4_v2x_msgs/lib:/home/eby/autoware/install/tier4_traffic_light_rviz_plugin/lib:/home/eby/autoware/install/tier4_api_msgs/lib:/home/eby/autoware/install/mrm_emergency_stop_operator/lib:/home/eby/autoware/install/mrm_comfortable_stop_operator/lib:/home/eby/autoware/install/default_ad_api/lib:/home/eby/autoware/install/tier4_system_msgs/lib:/home/eby/autoware/install/tier4_state_rviz_plugin/lib:/home/eby/autoware/install/fault_injection/lib:/home/eby/autoware/install/diagnostic_converter/lib:/home/eby/autoware/install/tier4_simulation_msgs/lib:/home/eby/autoware/install/tier4_simulated_clock_rviz_plugin/lib:/home/eby/autoware/install/tier4_screen_capture_rviz_plugin/lib:/home/eby/autoware/install/rtc_replayer/lib:/home/eby/autoware/install/rtc_manager_rviz_plugin/lib:/home/eby/autoware/install/rtc_interface/lib:/home/eby/autoware/install/rtc_auto_mode_manager/lib:/home/eby/autoware/install/tier4_rtc_msgs/lib:/home/eby/autoware/install/scenario_selector/lib:/home/eby/autoware/install/planning_debug_tools/lib:/home/eby/autoware/install/external_velocity_limit_selector/lib:/home/eby/autoware/install/costmap_generator/lib:/home/eby/autoware/install/tier4_planning_msgs/lib:/home/eby/autoware/install/tier4_perception_rviz_plugin/lib:/home/eby/autoware/install/tensorrt_yolox/lib:/home/eby/autoware/install/tensorrt_yolo/lib:/home/eby/autoware/install/detection_by_tracker/lib:/home/eby/autoware/install/shape_estimation/lib:/home/eby/autoware/install/object_merger/lib:/home/eby/autoware/install/multi_object_tracker/lib:/home/eby/autoware/install/lidar_apollo_instance_segmentation/lib:/home/eby/autoware/install/image_projection_based_fusion/lib:/home/eby/autoware/install/euclidean_cluster/lib:/home/eby/autoware/install/dummy_perception_publisher/lib:/home/eby/autoware/install/detected_object_validation/lib:/home/eby/autoware/install/detected_object_feature_remover/lib:/home/eby/autoware/install/tier4_perception_msgs/lib:/home/eby/autoware/install/occupancy_grid_map_outlier_filter/lib:/home/eby/autoware/install/compare_map_segmentation/lib:/home/eby/autoware/install/pointcloud_preprocessor/lib:/home/eby/autoware/install/tier4_pcl_extensions/lib:/home/eby/autoware/install/initial_pose_button_panel/lib:/home/eby/autoware/install/tier4_localization_msgs/lib:/home/eby/autoware/install/tier4_hmi_msgs/lib:/home/eby/autoware/install/tier4_control_rviz_plugin/lib:/home/eby/autoware/install/joy_controller/lib:/home/eby/autoware/install/system_monitor/lib:/home/eby/autoware/install/elevation_map_loader/lib:/home/eby/autoware/install/autoware_external_api_msgs/lib:/home/eby/autoware/install/tier4_external_api_msgs/lib:/home/eby/autoware/install/tier4_debug_tools/lib:/home/eby/autoware/install/tier4_debug_rviz_plugin/lib:/home/eby/autoware/install/route_handler/lib:/home/eby/autoware/install/radar_tracks_msgs_converter/lib:/home/eby/autoware/install/radar_static_pointcloud_filter/lib:/home/eby/autoware/install/radar_fusion_to_detected_object/lib:/home/eby/autoware/install/probabilistic_occupancy_grid_map/lib:/home/eby/autoware/install/planning_evaluator/lib:/home/eby/autoware/install/lidar_centerpoint/lib:/home/eby/autoware/install/heatmap_visualizer/lib:/home/eby/autoware/install/perception_utils/lib:/home/eby/autoware/install/path_distance_calculator/lib:/home/eby/autoware/install/map_based_prediction/lib:/home/eby/autoware/install/motion_utils/lib:/home/eby/autoware/install/map_loader/lib:/home/eby/autoware/install/localization_evaluator/lib:/home/eby/autoware/install/kinematic_evaluator/lib:/home/eby/autoware/install/interpolation/lib:/home/eby/autoware/install/imu_corrector/lib:/home/eby/autoware/install/image_diagnostics/lib:/home/eby/autoware/install/gyro_odometer/lib:/home/eby/autoware/install/grid_map_utils/lib:/home/eby/autoware/install/goal_distance_calculator/lib:/home/eby/autoware/install/front_vehicle_velocity_estimator/lib:/home/eby/autoware/install/ekf_localizer/lib:/home/eby/autoware/install/crosswalk_traffic_light_estimator/lib:/home/eby/autoware/install/tier4_autoware_utils/lib:/home/eby/autoware/install/gnss_poser/lib:/home/eby/autoware/install/tier4_debug_msgs/lib:/home/eby/autoware/install/tier4_datetime_rviz_plugin/lib:/home/eby/autoware/install/tier4_control_msgs/lib:/home/eby/autoware/install/tier4_automatic_goal_rviz_plugin/lib:/home/eby/autoware/install/tensorrt_common/lib:/home/eby/autoware/install/signal_processing/lib:/home/eby/autoware/install/shift_decider/lib:/home/eby/autoware/install/radar_threshold_filter/lib:/home/eby/autoware/install/radar_scan_to_pointcloud2/lib:/home/eby/autoware/install/polar_grid/lib:/home/eby/autoware/install/pointcloud_to_laserscan/lib:/home/eby/autoware/install/osqp_interface/lib:/home/eby/autoware/install/object_range_splitter/lib:/home/eby/autoware/install/ndt_omp/lib:/home/eby/autoware/install/mussp/lib:/home/eby/autoware/install/morai_msgs/lib:/home/eby/autoware/install/map_tf_generator/lib:/home/eby/autoware/install/map_height_fitter/lib:/home/eby/autoware/install/livox_tag_filter/lib:/home/eby/autoware/install/lanelet2_extension/lib:/home/eby/autoware/install/kalman_filter/lib:/home/eby/autoware/install/image_transport_decompressor/lib:/home/eby/autoware/install/geo_pos_conv/lib:/home/eby/autoware/install/fake_test_node/lib:/home/eby/autoware/install/bluetooth_monitor/lib:/home/eby/autoware/install/bag_time_manager_rviz_plugin/lib:/home/eby/autoware/install/autoware_utils/lib:/home/eby/autoware/install/autoware_sensing_msgs/lib:/home/eby/autoware/install/autoware_planning_msgs/lib:/home/eby/autoware/install/autoware_perception_msgs/lib:/home/eby/autoware/install/autoware_map_msgs/lib:/home/eby/autoware/install/autoware_localization_msgs/lib:/home/eby/autoware/install/autoware_control_msgs/lib:/home/eby/autoware/install/autoware_common_msgs/lib:/home/eby/autoware/install/autoware_auto_geometry/lib:/home/eby/autoware/install/autoware_auto_vehicle_msgs/lib:/home/eby/autoware/install/autoware_auto_system_msgs/lib:/home/eby/autoware/install/autoware_auto_planning_msgs/lib:/home/eby/autoware/install/autoware_auto_perception_rviz_plugin/lib:/home/eby/autoware/install/autoware_auto_perception_msgs/lib:/home/eby/autoware/install/autoware_auto_mapping_msgs/lib:/home/eby/autoware/install/autoware_auto_geometry_msgs/lib:/home/eby/autoware/install/autoware_auto_control_msgs/lib:/home/eby/autoware/install/autoware_adapi_version_msgs/lib:/home/eby/autoware/install/autoware_adapi_v1_msgs/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/eby'), ('OLDPWD', '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/autoware_auto_msgs'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '54642'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/eby/autoware/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'eby'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eby'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/eby/autoware/install/velodyne_description/share/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/eby/autoware/install/trtexec_vendor/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/eby/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/eby/.local/bin:/home/eby/.local/bin'), ('SESSION_MANAGER', 'local/eby-HP-Z4-G4-Workstation:@/tmp/.ICE-unix/1772,unix/eby-HP-Z4-G4-Workstation:/tmp/.ICE-unix/1772'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b5a9b27_6c3d_49b3_b16e_2476cc4c4790'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eby/autoware/install/vls_description:/home/eby/autoware/install/sample_sensor_kit_launch:/home/eby/autoware/install/awsim_sensor_kit_launch:/home/eby/autoware/install/common_sensor_launch:/home/eby/autoware/install/common_awsim_sensor_launch:/home/eby/autoware/install/velodyne_pointcloud:/home/eby/autoware/install/velodyne_driver:/home/eby/autoware/install/velodyne_msgs:/home/eby/autoware/install/velodyne_monitor:/home/eby/autoware/install/sample_sensor_kit_description:/home/eby/autoware/install/awsim_sensor_kit_description:/home/eby/autoware/install/velodyne_description:/home/eby/autoware/install/vehicle_velocity_converter:/home/eby/autoware/install/autoware_launch:/home/eby/autoware/install/tier4_control_launch:/home/eby/autoware/install/vehicle_cmd_gate:/home/eby/autoware/install/trajectory_follower_node:/home/eby/autoware/install/pure_pursuit:/home/eby/autoware/install/pid_longitudinal_controller:/home/eby/autoware/install/mpc_lateral_controller:/home/eby/autoware/install/trajectory_follower_base:/home/eby/autoware/install/tier4_simulator_launch:/home/eby/autoware/install/tier4_sensing_launch:/home/eby/autoware/install/tier4_planning_rviz_plugin:/home/eby/autoware/install/tier4_planning_launch:/home/eby/autoware/install/tier4_perception_launch:/home/eby/autoware/install/tier4_localization_rviz_plugin:/home/eby/autoware/install/surround_obstacle_checker:/home/eby/autoware/install/steer_offset_estimator:/home/eby/autoware/install/static_centerline_optimizer:/home/eby/autoware/install/simple_planning_simulator:/home/eby/autoware/install/planning_validator:/home/eby/autoware/install/pacmod_interface:/home/eby/autoware/install/operation_mode_transition_manager:/home/eby/autoware/install/obstacle_velocity_limiter:/home/eby/autoware/install/obstacle_stop_planner:/home/eby/autoware/install/obstacle_cruise_planner:/home/eby/autoware/install/obstacle_collision_checker:/home/eby/autoware/install/obstacle_avoidance_planner:/home/eby/autoware/install/behavior_velocity_planner:/home/eby/autoware/install/motion_velocity_smoother:/home/eby/autoware/install/mission_planner:/home/eby/autoware/install/behavior_path_planner:/home/eby/autoware/install/lane_departure_checker:/home/eby/autoware/install/ground_segmentation:/home/eby/autoware/install/control_performance_analysis:/home/eby/autoware/install/global_parameter_loader:/home/eby/autoware/install/freespace_planner:/home/eby/autoware/install/freespace_planning_algorithms:/home/eby/autoware/install/vehicle_info_util:/home/eby/autoware/install/twist2accel:/home/eby/autoware/install/lidar_centerpoint_tvm:/home/eby/autoware/install/lidar_apollo_segmentation_tvm_nodes:/home/eby/autoware/install/lidar_apollo_segmentation_tvm:/home/eby/autoware/install/tvm_utility:/home/eby/autoware/install/trtexec_vendor:/home/eby/autoware/install/traffic_light_visualization:/home/eby/autoware/install/traffic_light_ssd_fine_detector:/home/eby/autoware/install/traffic_light_selector:/home/eby/autoware/install/traffic_light_map_based_detector:/home/eby/autoware/install/traffic_light_classifier:/home/eby/autoware/install/tier4_system_launch:/home/eby/autoware/install/component_state_monitor:/home/eby/autoware/install/topic_state_monitor:/home/eby/autoware/install/time_utils:/home/eby/autoware/install/tier4_vehicle_rviz_plugin:/home/eby/autoware/install/tier4_calibration_rviz_plugin:/home/eby/autoware/install/tier4_autoware_api_launch:/home/eby/autoware/install/external_cmd_selector:/home/eby/autoware/install/awapi_awiv_adapter:/home/eby/autoware/install/autoware_iv_internal_api_adaptor:/home/eby/autoware/install/autoware_iv_external_api_adaptor:/home/eby/autoware/install/tier4_auto_msgs_converter:/home/eby/autoware/install/external_cmd_converter:/home/eby/autoware/install/accel_brake_map_calibrator:/home/eby/autoware/install/raw_vehicle_cmd_converter:/home/eby/autoware/install/tier4_vehicle_msgs:/home/eby/autoware/install/tier4_vehicle_launch:/home/eby/autoware/install/dummy_infrastructure:/home/eby/autoware/install/tier4_v2x_msgs:/home/eby/autoware/install/tier4_traffic_light_rviz_plugin:/home/eby/autoware/install/tier4_localization_launch:/home/eby/autoware/install/tier4_api_msgs:/home/eby/autoware/install/pose_initializer:/home/eby/autoware/install/mrm_emergency_stop_operator:/home/eby/autoware/install/mrm_comfortable_stop_operator:/home/eby/autoware/install/emergency_handler:/home/eby/autoware/install/default_ad_api:/home/eby/autoware/install/automatic_pose_initializer:/home/eby/autoware/install/ad_api_adaptors:/home/eby/autoware/install/component_interface_utils:/home/eby/autoware/install/component_interface_tools:/home/eby/autoware/install/tier4_system_msgs:/home/eby/autoware/install/tier4_state_rviz_plugin:/home/eby/autoware/install/fault_injection:/home/eby/autoware/install/diagnostic_converter:/home/eby/autoware/install/tier4_simulation_msgs:/home/eby/autoware/install/tier4_simulated_clock_rviz_plugin:/home/eby/autoware/install/tier4_screen_capture_rviz_plugin:/home/eby/autoware/install/rtc_replayer:/home/eby/autoware/install/rtc_manager_rviz_plugin:/home/eby/autoware/install/rtc_interface:/home/eby/autoware/install/rtc_auto_mode_manager:/home/eby/autoware/install/tier4_rtc_msgs:/home/eby/autoware/install/scenario_selector:/home/eby/autoware/install/planning_debug_tools:/home/eby/autoware/install/external_velocity_limit_selector:/home/eby/autoware/install/costmap_generator:/home/eby/autoware/install/tier4_planning_msgs:/home/eby/autoware/install/tier4_perception_rviz_plugin:/home/eby/autoware/install/tensorrt_yolox:/home/eby/autoware/install/tensorrt_yolo:/home/eby/autoware/install/detection_by_tracker:/home/eby/autoware/install/shape_estimation:/home/eby/autoware/install/object_merger:/home/eby/autoware/install/multi_object_tracker:/home/eby/autoware/install/lidar_apollo_instance_segmentation:/home/eby/autoware/install/image_projection_based_fusion:/home/eby/autoware/install/euclidean_cluster:/home/eby/autoware/install/dummy_perception_publisher:/home/eby/autoware/install/detected_object_validation:/home/eby/autoware/install/detected_object_feature_remover:/home/eby/autoware/install/tier4_perception_msgs:/home/eby/autoware/install/occupancy_grid_map_outlier_filter:/home/eby/autoware/install/compare_map_segmentation:/home/eby/autoware/install/pointcloud_preprocessor:/home/eby/autoware/install/tier4_pcl_extensions:/home/eby/autoware/install/tier4_map_launch:/home/eby/autoware/install/ndt_scan_matcher:/home/eby/autoware/install/initial_pose_button_panel:/home/eby/autoware/install/tier4_localization_msgs:/home/eby/autoware/install/tier4_hmi_msgs:/home/eby/autoware/install/tier4_control_rviz_plugin:/home/eby/autoware/install/joy_controller:/home/eby/autoware/install/tier4_api_utils:/home/eby/autoware/install/system_monitor:/home/eby/autoware/install/elevation_map_loader:/home/eby/autoware/install/autoware_external_api_msgs:/home/eby/autoware/install/tier4_external_api_msgs:/home/eby/autoware/install/tier4_debug_tools:/home/eby/autoware/install/tier4_debug_rviz_plugin:/home/eby/autoware/install/system_error_monitor:/home/eby/autoware/install/route_handler:/home/eby/autoware/install/radar_tracks_msgs_converter:/home/eby/autoware/install/radar_static_pointcloud_filter:/home/eby/autoware/install/radar_fusion_to_detected_object:/home/eby/autoware/install/probabilistic_occupancy_grid_map:/home/eby/autoware/install/planning_evaluator:/home/eby/autoware/install/lidar_centerpoint:/home/eby/autoware/install/heatmap_visualizer:/home/eby/autoware/install/perception_utils:/home/eby/autoware/install/path_distance_calculator:/home/eby/autoware/install/map_based_prediction:/home/eby/autoware/install/motion_utils:/home/eby/autoware/install/map_loader:/home/eby/autoware/install/localization_evaluator:/home/eby/autoware/install/kinematic_evaluator:/home/eby/autoware/install/interpolation:/home/eby/autoware/install/imu_corrector:/home/eby/autoware/install/image_diagnostics:/home/eby/autoware/install/gyro_odometer:/home/eby/autoware/install/grid_map_utils:/home/eby/autoware/install/goal_distance_calculator:/home/eby/autoware/install/front_vehicle_velocity_estimator:/home/eby/autoware/install/ekf_localizer:/home/eby/autoware/install/dummy_diag_publisher:/home/eby/autoware/install/crosswalk_traffic_light_estimator:/home/eby/autoware/install/tier4_autoware_utils:/home/eby/autoware/install/stop_filter:/home/eby/autoware/install/pose2twist:/home/eby/autoware/install/gnss_poser:/home/eby/autoware/install/tier4_debug_msgs:/home/eby/autoware/install/tier4_datetime_rviz_plugin:/home/eby/autoware/install/tier4_control_msgs:/home/eby/autoware/install/tier4_automatic_goal_rviz_plugin:/home/eby/autoware/install/tensorrt_common:/home/eby/autoware/install/tamagawa_imu_driver:/home/eby/autoware/install/simulator_compatibility_test:/home/eby/autoware/install/signal_processing:/home/eby/autoware/install/shift_decider:/home/eby/autoware/install/sample_vehicle_launch:/home/eby/autoware/install/sample_vehicle_description:/home/eby/autoware/install/radar_threshold_filter:/home/eby/autoware/install/radar_scan_to_pointcloud2:/home/eby/autoware/install/polar_grid:/home/eby/autoware/install/pointcloud_to_laserscan:/home/eby/autoware/install/pandar_description:/home/eby/autoware/install/osqp_interface:/home/eby/autoware/install/object_range_splitter:/home/eby/autoware/install/ndt_omp:/home/eby/autoware/install/mussp:/home/eby/autoware/install/morai_msgs:/home/eby/autoware/install/map_tf_generator:/home/eby/autoware/install/map_height_fitter:/home/eby/autoware/install/localization_error_monitor:/home/eby/autoware/install/livox_tag_filter:/home/eby/autoware/install/livox_description:/home/eby/autoware/install/lanelet2_map_preprocessor:/home/eby/autoware/install/lanelet2_extension:/home/eby/autoware/install/kalman_filter:/home/eby/autoware/install/individual_params:/home/eby/autoware/install/imu_description:/home/eby/autoware/install/image_transport_decompressor:/home/eby/autoware/install/geo_pos_conv:/home/eby/autoware/install/fake_test_node:/home/eby/autoware/install/cuda_utils:/home/eby/autoware/install/component_interface_specs:/home/eby/autoware/install/camera_description:/home/eby/autoware/install/bluetooth_monitor:/home/eby/autoware/install/bag_time_manager_rviz_plugin:/home/eby/autoware/install/autoware_utils:/home/eby/autoware/install/autoware_testing:/home/eby/autoware/install/autoware_sensing_msgs:/home/eby/autoware/install/autoware_point_types:/home/eby/autoware/install/autoware_planning_msgs:/home/eby/autoware/install/autoware_perception_msgs:/home/eby/autoware/install/autoware_map_msgs:/home/eby/autoware/install/autoware_localization_msgs:/home/eby/autoware/install/autoware_lint_common:/home/eby/autoware/install/autoware_control_msgs:/home/eby/autoware/install/autoware_common_msgs:/home/eby/autoware/install/autoware_cmake:/home/eby/autoware/install/autoware_auto_msgs:/home/eby/autoware/install/autoware_auto_geometry:/home/eby/autoware/install/autoware_auto_vehicle_msgs:/home/eby/autoware/install/autoware_auto_tf2:/home/eby/autoware/install/autoware_auto_system_msgs:/home/eby/autoware/install/autoware_auto_planning_msgs:/home/eby/autoware/install/autoware_auto_perception_rviz_plugin:/home/eby/autoware/install/autoware_auto_perception_msgs:/home/eby/autoware/install/autoware_auto_mapping_msgs:/home/eby/autoware/install/autoware_auto_geometry_msgs:/home/eby/autoware/install/autoware_auto_control_msgs:/home/eby/autoware/install/autoware_auto_common:/home/eby/autoware/install/autoware_adapi_version_msgs:/home/eby/autoware/install/ad_api_visualizers:/home/eby/autoware/install/autoware_adapi_v1_msgs:/home/eby/autoware/install/autoware_ad_api_specs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/build/mpc_lateral_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eby/autoware/install/velodyne_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/static_centerline_optimizer/local/lib/python3.10/dist-packages:/home/eby/autoware/install/planning_validator/local/lib/python3.10/dist-packages:/home/eby/autoware/install/operation_mode_transition_manager/local/lib/python3.10/dist-packages:/home/eby/autoware/install/control_performance_analysis/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_vehicle_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_v2x_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_api_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_system_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_simulation_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_rtc_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/planning_debug_tools/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_planning_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/dummy_perception_publisher/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_perception_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_localization_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_hmi_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_external_api_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_external_api_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_debug_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/tier4_control_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/build/simulator_compatibility_test:/home/eby/autoware/install/simulator_compatibility_test/lib/python3.10/site-packages:/home/eby/autoware/install/morai_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_sensing_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_planning_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_perception_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_map_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_localization_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_control_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_common_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_vehicle_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_system_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_planning_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_perception_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_mapping_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_geometry_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_auto_control_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/install/autoware_adapi_version_msgs/local/lib/python3.10/dist-packages:/home/eby/autoware/build/ad_api_visualizers:/home/eby/autoware/install/ad_api_visualizers/lib/python3.10/site-packages:/home/eby/autoware/install/autoware_adapi_v1_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/eby/autoware/install/vls_description:/home/eby/autoware/install/sample_sensor_kit_launch:/home/eby/autoware/install/awsim_sensor_kit_launch:/home/eby/autoware/install/common_sensor_launch:/home/eby/autoware/install/common_awsim_sensor_launch:/home/eby/autoware/install/velodyne_pointcloud:/home/eby/autoware/install/velodyne_driver:/home/eby/autoware/install/velodyne_msgs:/home/eby/autoware/install/velodyne_monitor:/home/eby/autoware/install/sample_sensor_kit_description:/home/eby/autoware/install/awsim_sensor_kit_description:/home/eby/autoware/install/velodyne_description:/home/eby/autoware/install/vehicle_velocity_converter:/home/eby/autoware/install/autoware_launch:/home/eby/autoware/install/tier4_control_launch:/home/eby/autoware/install/vehicle_cmd_gate:/home/eby/autoware/install/trajectory_follower_node:/home/eby/autoware/install/pure_pursuit:/home/eby/autoware/install/pid_longitudinal_controller:/home/eby/autoware/install/mpc_lateral_controller:/home/eby/autoware/install/trajectory_follower_base:/home/eby/autoware/install/tier4_simulator_launch:/home/eby/autoware/install/tier4_sensing_launch:/home/eby/autoware/install/tier4_planning_rviz_plugin:/home/eby/autoware/install/tier4_planning_launch:/home/eby/autoware/install/tier4_perception_launch:/home/eby/autoware/install/tier4_localization_rviz_plugin:/home/eby/autoware/install/surround_obstacle_checker:/home/eby/autoware/install/steer_offset_estimator:/home/eby/autoware/install/static_centerline_optimizer:/home/eby/autoware/install/simple_planning_simulator:/home/eby/autoware/install/planning_validator:/home/eby/autoware/install/pacmod_interface:/home/eby/autoware/install/operation_mode_transition_manager:/home/eby/autoware/install/obstacle_velocity_limiter:/home/eby/autoware/install/obstacle_stop_planner:/home/eby/autoware/install/obstacle_cruise_planner:/home/eby/autoware/install/obstacle_collision_checker:/home/eby/autoware/install/obstacle_avoidance_planner:/home/eby/autoware/install/behavior_velocity_planner:/home/eby/autoware/install/motion_velocity_smoother:/home/eby/autoware/install/mission_planner:/home/eby/autoware/install/behavior_path_planner:/home/eby/autoware/install/lane_departure_checker:/home/eby/autoware/install/ground_segmentation:/home/eby/autoware/install/control_performance_analysis:/home/eby/autoware/install/global_parameter_loader:/home/eby/autoware/install/freespace_planner:/home/eby/autoware/install/freespace_planning_algorithms:/home/eby/autoware/install/vehicle_info_util:/home/eby/autoware/install/twist2accel:/home/eby/autoware/install/lidar_centerpoint_tvm:/home/eby/autoware/install/lidar_apollo_segmentation_tvm_nodes:/home/eby/autoware/install/lidar_apollo_segmentation_tvm:/home/eby/autoware/install/tvm_utility:/home/eby/autoware/install/trtexec_vendor:/home/eby/autoware/install/traffic_light_visualization:/home/eby/autoware/install/traffic_light_ssd_fine_detector:/home/eby/autoware/install/traffic_light_selector:/home/eby/autoware/install/traffic_light_map_based_detector:/home/eby/autoware/install/traffic_light_classifier:/home/eby/autoware/install/tier4_system_launch:/home/eby/autoware/install/component_state_monitor:/home/eby/autoware/install/topic_state_monitor:/home/eby/autoware/install/time_utils:/home/eby/autoware/install/tier4_vehicle_rviz_plugin:/home/eby/autoware/install/tier4_calibration_rviz_plugin:/home/eby/autoware/install/tier4_autoware_api_launch:/home/eby/autoware/install/external_cmd_selector:/home/eby/autoware/install/awapi_awiv_adapter:/home/eby/autoware/install/autoware_iv_internal_api_adaptor:/home/eby/autoware/install/autoware_iv_external_api_adaptor:/home/eby/autoware/install/tier4_auto_msgs_converter:/home/eby/autoware/install/external_cmd_converter:/home/eby/autoware/install/accel_brake_map_calibrator:/home/eby/autoware/install/raw_vehicle_cmd_converter:/home/eby/autoware/install/tier4_vehicle_msgs:/home/eby/autoware/install/tier4_vehicle_launch:/home/eby/autoware/install/dummy_infrastructure:/home/eby/autoware/install/tier4_v2x_msgs:/home/eby/autoware/install/tier4_traffic_light_rviz_plugin:/home/eby/autoware/install/tier4_localization_launch:/home/eby/autoware/install/tier4_api_msgs:/home/eby/autoware/install/pose_initializer:/home/eby/autoware/install/mrm_emergency_stop_operator:/home/eby/autoware/install/mrm_comfortable_stop_operator:/home/eby/autoware/install/emergency_handler:/home/eby/autoware/install/default_ad_api:/home/eby/autoware/install/automatic_pose_initializer:/home/eby/autoware/install/ad_api_adaptors:/home/eby/autoware/install/component_interface_utils:/home/eby/autoware/install/component_interface_tools:/home/eby/autoware/install/tier4_system_msgs:/home/eby/autoware/install/tier4_state_rviz_plugin:/home/eby/autoware/install/fault_injection:/home/eby/autoware/install/diagnostic_converter:/home/eby/autoware/install/tier4_simulation_msgs:/home/eby/autoware/install/tier4_simulated_clock_rviz_plugin:/home/eby/autoware/install/tier4_screen_capture_rviz_plugin:/home/eby/autoware/install/rtc_replayer:/home/eby/autoware/install/rtc_manager_rviz_plugin:/home/eby/autoware/install/rtc_interface:/home/eby/autoware/install/rtc_auto_mode_manager:/home/eby/autoware/install/tier4_rtc_msgs:/home/eby/autoware/install/scenario_selector:/home/eby/autoware/install/planning_debug_tools:/home/eby/autoware/install/external_velocity_limit_selector:/home/eby/autoware/install/costmap_generator:/home/eby/autoware/install/tier4_planning_msgs:/home/eby/autoware/install/tier4_perception_rviz_plugin:/home/eby/autoware/install/tensorrt_yolox:/home/eby/autoware/install/tensorrt_yolo:/home/eby/autoware/install/detection_by_tracker:/home/eby/autoware/install/shape_estimation:/home/eby/autoware/install/object_merger:/home/eby/autoware/install/multi_object_tracker:/home/eby/autoware/install/lidar_apollo_instance_segmentation:/home/eby/autoware/install/image_projection_based_fusion:/home/eby/autoware/install/euclidean_cluster:/home/eby/autoware/install/dummy_perception_publisher:/home/eby/autoware/install/detected_object_validation:/home/eby/autoware/install/detected_object_feature_remover:/home/eby/autoware/install/tier4_perception_msgs:/home/eby/autoware/install/occupancy_grid_map_outlier_filter:/home/eby/autoware/install/compare_map_segmentation:/home/eby/autoware/install/pointcloud_preprocessor:/home/eby/autoware/install/tier4_pcl_extensions:/home/eby/autoware/install/tier4_map_launch:/home/eby/autoware/install/ndt_scan_matcher:/home/eby/autoware/install/initial_pose_button_panel:/home/eby/autoware/install/tier4_localization_msgs:/home/eby/autoware/install/tier4_hmi_msgs:/home/eby/autoware/install/tier4_control_rviz_plugin:/home/eby/autoware/install/joy_controller:/home/eby/autoware/install/tier4_api_utils:/home/eby/autoware/install/system_monitor:/home/eby/autoware/install/elevation_map_loader:/home/eby/autoware/install/autoware_external_api_msgs:/home/eby/autoware/install/tier4_external_api_msgs:/home/eby/autoware/install/tier4_debug_tools:/home/eby/autoware/install/tier4_debug_rviz_plugin:/home/eby/autoware/install/system_error_monitor:/home/eby/autoware/install/route_handler:/home/eby/autoware/install/radar_tracks_msgs_converter:/home/eby/autoware/install/radar_static_pointcloud_filter:/home/eby/autoware/install/radar_fusion_to_detected_object:/home/eby/autoware/install/probabilistic_occupancy_grid_map:/home/eby/autoware/install/planning_evaluator:/home/eby/autoware/install/lidar_centerpoint:/home/eby/autoware/install/heatmap_visualizer:/home/eby/autoware/install/perception_utils:/home/eby/autoware/install/path_distance_calculator:/home/eby/autoware/install/map_based_prediction:/home/eby/autoware/install/motion_utils:/home/eby/autoware/install/map_loader:/home/eby/autoware/install/localization_evaluator:/home/eby/autoware/install/kinematic_evaluator:/home/eby/autoware/install/interpolation:/home/eby/autoware/install/imu_corrector:/home/eby/autoware/install/image_diagnostics:/home/eby/autoware/install/gyro_odometer:/home/eby/autoware/install/grid_map_utils:/home/eby/autoware/install/goal_distance_calculator:/home/eby/autoware/install/front_vehicle_velocity_estimator:/home/eby/autoware/install/ekf_localizer:/home/eby/autoware/install/dummy_diag_publisher:/home/eby/autoware/install/crosswalk_traffic_light_estimator:/home/eby/autoware/install/tier4_autoware_utils:/home/eby/autoware/install/stop_filter:/home/eby/autoware/install/pose2twist:/home/eby/autoware/install/gnss_poser:/home/eby/autoware/install/tier4_debug_msgs:/home/eby/autoware/install/tier4_datetime_rviz_plugin:/home/eby/autoware/install/tier4_control_msgs:/home/eby/autoware/install/tier4_automatic_goal_rviz_plugin:/home/eby/autoware/install/tensorrt_common:/home/eby/autoware/install/tamagawa_imu_driver:/home/eby/autoware/install/signal_processing:/home/eby/autoware/install/shift_decider:/home/eby/autoware/install/sample_vehicle_launch:/home/eby/autoware/install/sample_vehicle_description:/home/eby/autoware/install/radar_threshold_filter:/home/eby/autoware/install/radar_scan_to_pointcloud2:/home/eby/autoware/install/polar_grid:/home/eby/autoware/install/pointcloud_to_laserscan:/home/eby/autoware/install/pandar_description:/home/eby/autoware/install/osqp_interface:/home/eby/autoware/install/object_range_splitter:/home/eby/autoware/install/ndt_omp:/home/eby/autoware/install/mussp:/home/eby/autoware/install/morai_msgs:/home/eby/autoware/install/map_tf_generator:/home/eby/autoware/install/map_height_fitter:/home/eby/autoware/install/localization_error_monitor:/home/eby/autoware/install/livox_tag_filter:/home/eby/autoware/install/livox_description:/home/eby/autoware/install/lanelet2_map_preprocessor:/home/eby/autoware/install/lanelet2_extension:/home/eby/autoware/install/kalman_filter:/home/eby/autoware/install/individual_params:/home/eby/autoware/install/imu_description:/home/eby/autoware/install/image_transport_decompressor:/home/eby/autoware/install/geo_pos_conv:/home/eby/autoware/install/fake_test_node:/home/eby/autoware/install/cuda_utils:/home/eby/autoware/install/component_interface_specs:/home/eby/autoware/install/camera_description:/home/eby/autoware/install/bluetooth_monitor:/home/eby/autoware/install/bag_time_manager_rviz_plugin:/home/eby/autoware/install/autoware_utils:/home/eby/autoware/install/autoware_testing:/home/eby/autoware/install/autoware_sensing_msgs:/home/eby/autoware/install/autoware_point_types:/home/eby/autoware/install/autoware_planning_msgs:/home/eby/autoware/install/autoware_perception_msgs:/home/eby/autoware/install/autoware_map_msgs:/home/eby/autoware/install/autoware_localization_msgs:/home/eby/autoware/install/autoware_lint_common:/home/eby/autoware/install/autoware_control_msgs:/home/eby/autoware/install/autoware_common_msgs:/home/eby/autoware/install/autoware_cmake:/home/eby/autoware/install/autoware_auto_msgs:/home/eby/autoware/install/autoware_auto_geometry:/home/eby/autoware/install/autoware_auto_vehicle_msgs:/home/eby/autoware/install/autoware_auto_tf2:/home/eby/autoware/install/autoware_auto_system_msgs:/home/eby/autoware/install/autoware_auto_planning_msgs:/home/eby/autoware/install/autoware_auto_perception_rviz_plugin:/home/eby/autoware/install/autoware_auto_perception_msgs:/home/eby/autoware/install/autoware_auto_mapping_msgs:/home/eby/autoware/install/autoware_auto_geometry_msgs:/home/eby/autoware/install/autoware_auto_control_msgs:/home/eby/autoware/install/autoware_auto_common:/home/eby/autoware/install/autoware_adapi_version_msgs:/home/eby/autoware/install/autoware_adapi_v1_msgs:/home/eby/autoware/install/autoware_ad_api_specs:/home/eby/autoware/install/simulator_compatibility_test:/home/eby/autoware/install/ad_api_visualizers:/opt/ros/humble')]), 'shell': False}
+[93.985449] (mpc_lateral_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[93.985734] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/environment/library_path.sh\n'}
+[93.985908] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/environment/library_path.dsv\n'}
+[93.986071] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/lib/libsteering_offset_lib.so\n'}
+[93.986472] (mpc_lateral_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/lib/libsteering_offset_lib.so" to ""\n'}
+[93.986629] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/lib/libmpc_lateral_controller_lib.so\n'}
+[93.997130] (mpc_lateral_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/lib/libmpc_lateral_controller_lib.so" to ""\n'}
+[93.997342] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/param\n'}
+[93.997441] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/param/lateral_controller_defaults.param.yaml\n'}
+[93.997590] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/ament_index/resource_index/package_run_dependencies/mpc_lateral_controller\n'}
+[93.997698] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/ament_index/resource_index/parent_prefix_path/mpc_lateral_controller\n'}
+[93.997809] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/environment/ament_prefix_path.sh\n'}
+[93.997925] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/environment/ament_prefix_path.dsv\n'}
+[93.998040] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/environment/path.sh\n'}
+[93.998155] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/environment/path.dsv\n'}
+[93.998262] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/local_setup.bash\n'}
+[93.998392] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/local_setup.sh\n'}
+[93.998499] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/local_setup.zsh\n'}
+[93.998646] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/local_setup.dsv\n'}
+[93.998767] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/package.dsv\n'}
+[93.998924] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/ament_index/resource_index/packages/mpc_lateral_controller\n'}
+[93.999069] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[93.999196] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[93.999321] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/cmake/mpc_lateral_controllerConfig.cmake\n'}
+[93.999432] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/cmake/mpc_lateral_controllerConfig-version.cmake\n'}
+[93.999542] (mpc_lateral_controller) StdoutLine: {'line': b'-- Installing: /home/eby/Desktop/GITHUB/Cpp_Gtest_Projects/Project_5/install/mpc_lateral_controller/share/mpc_lateral_controller/package.xml\n'}
+[94.002152] (mpc_lateral_controller) CommandEnded: {'returncode': 0}
+[94.029857] (-) TimerEvent: {}
+[94.130798] (-) TimerEvent: {}
+[94.231099] (-) TimerEvent: {}
+[94.331374] (-) TimerEvent: {}
+[94.431704] (-) TimerEvent: {}
+[94.532025] (-) TimerEvent: {}
+[94.632526] (-) TimerEvent: {}
+[94.732782] (-) TimerEvent: {}
+[94.833103] (-) TimerEvent: {}
+[94.934106] (-) TimerEvent: {}
+[94.976622] (mpc_lateral_controller) JobEnded: {'identifier': 'mpc_lateral_controller', 'rc': 0}
+[94.977290] (-) EventReactorShutdown: {}
